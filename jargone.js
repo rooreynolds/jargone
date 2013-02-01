@@ -9,8 +9,8 @@
 
 javascript:(function () { 
 
-	// list of words to avoid based on https://www.gov.uk/designprinciples/styleguide#item_4_1_3
-	var words = [
+    // list of words to avoid based on https://www.gov.uk/designprinciples/styleguide#item_4_1_3
+    var words = [
             'advanced',
             'advancing',
             'agenda',
@@ -67,6 +67,7 @@ javascript:(function () {
             'streamline',
             'strengthened',
             'strengthening',
+            'synergy',
             'tackle',
             'tackling',
             'transform',
@@ -74,21 +75,21 @@ javascript:(function () {
             'utilise',
             'utilising',
             'webinar'
-	];
+    ];
 
-	var p = document.getElementsByTagName('p'); 
-	for (var j = 0; j < words.length; j++) { // for each word
+    var p = document.getElementsByTagName('p');
+    for (var j = 0; j < words.length; j++) { // for each word
         var word = '\\b' + words[j].replace(/([.*+?^=!:${}()|[\]\/\\])/g, "\\$1");
         if (word.slice(-1) != '.') {
             word = word + '\\b';
         }
         var regex = new RegExp('(' + word + ')', 'ig');
 
-	    for (var i = 0; i < p.length; i++) {
-	        var para = p[i].innerHTML;
-	        para = para.replace(regex, '<span style=\'background-color: #FFFF88\'>$1<\/span>'); // TODO: replace this dirty hack with something a bit nicer
-	        p[i].innerHTML = para;
-	    }
-	}
+        for (var i = 0; i < p.length; i++) {
+            var para = p[i].innerHTML;
+            para = para.replace(regex, '<span style=\'background-color: #FFFF88\'>$1<\/span>'); // TODO: replace this dirty hack with something a bit nicer
+            p[i].innerHTML = para;
+        }
+    }
 })();
 

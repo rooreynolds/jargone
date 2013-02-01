@@ -10,7 +10,8 @@
 javascript:(function () { 
 
     // list of words to avoid based on https://www.gov.uk/designprinciples/styleguide#item_4_1_3
-    var words = [            'advanced',
+    var words = [
+            'advanced',
             'advancing',
             'agenda',
             'collaborate',
@@ -74,7 +75,7 @@ javascript:(function () {
             'utilise',
             'utilising',
             'webinar'
-];
+    ];
 
     // From http://james.padolsey.com/javascript/find-and-replace-text-with-javascript/
     function findAndReplace(searchText, replacement, searchNode) {

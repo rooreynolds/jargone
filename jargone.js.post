@@ -1,4 +1,4 @@
-];
+    ];
 
     // From http://james.padolsey.com/javascript/find-and-replace-text-with-javascript/
     function findAndReplace(searchText, replacement, searchNode) {

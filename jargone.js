@@ -1,12 +1,12 @@
 /*
  * Jargone
- *
+ * 
  * Highlight jargon on the page. Jargon, begone.
- *
+ * 
  * Roo Reynolds | rooreynolds.com | @rooreynolds
  */
 
-javascript:(function () {
+javascript:(function () { 
 
 	// list of words to avoid based on https://www.gov.uk/designprinciples/styleguide#item_4_1_3
 	var words = [
@@ -72,10 +72,10 @@ javascript:(function () {
             'transforming',
             'utilise',
             'utilising',
-            'webinar';
+            'webinar'
 	];
 
-	var p = document.getElementsByTagName('p');
+	var p = document.getElementsByTagName('p'); 
 	for (var j = 0; j < words.length; j++) { // for each word
 	    for (var i = 0; i < p.length; i++) {
 	        var para = p[i].innerHTML;

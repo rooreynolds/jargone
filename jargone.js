@@ -78,7 +78,12 @@ javascript:(function () {
 
 	var p = document.getElementsByTagName('p'); 
 	for (var j = 0; j < words.length; j++) { // for each word
-	    var regex = new RegExp('(\\b' + words[j] + '\\b)', 'ig');
+	    var word = '\\b' + words[j].replace(/([.*+?^=!:${}()|[\]\/\\])/g, "\\$1");
+	    if (word.slice(-1) != '.') {
+	        word = word + '\\b';
+	    }
+	    var regex = new RegExp('(' + word + ')', 'ig');
+
 	    for (var i = 0; i < p.length; i++) {
 	        var para = p[i].innerHTML;
 	        para = para.replace(regex, '<span style=\'background-color: #FFFF88\'>$1<\/span>'); // TODO: replace this dirty hack with something a bit nicer

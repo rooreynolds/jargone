@@ -113,9 +113,8 @@ javascript:(function () {
         }
     }
 
-    var p = document.getElementsByTagName('p');
-    for (var j = 0; j < words.length; j++) { // for each word
-        var word = '\\b' + words[j].replace(/([.*+?^=!:${}()|[\]\/\\])/g, "\\$1");
+    for (var i = 0; i < words.length; i++) { // for each word
+        var word = '\\b' + words[i].replace(/([.*+?^=!:${}()|[\]\/\\])/g, "\\$1");
         if (word.slice(-1) != '.') {
             word = word + '\\b';
         }

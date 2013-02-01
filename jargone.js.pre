@@ -2,8 +2,9 @@
  * Jargone
  * 
  * Highlight jargon on the page. Jargon, begone.
- * 
  * Roo Reynolds | rooreynolds.com | @rooreynolds
+ * 
+ * [NB: jargone.js is built using build.sh. Expect changes here to be overwritten]
  */
 
 javascript:(function () { 

@@ -10,6 +10,7 @@ javascript:(function () {
 
 	// list of words to avoid based on https://www.gov.uk/designprinciples/styleguide#item_4_1_3
 	var words = [
+            'TEST',
             'advanced',
             'advancing',
             'agenda',

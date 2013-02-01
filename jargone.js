@@ -71,7 +71,9 @@ javascript:(function () {
 		'i.e.',
 		'leverage', 
 		'leveraging', 
-		'synergy'
+		'synergy',
+		'webinar',
+		'mobilise'
 	];
 
 	var p = document.getElementsByTagName('p'); 

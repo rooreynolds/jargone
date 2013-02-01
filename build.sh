@@ -10,11 +10,9 @@
 
 cat jargone.js.pre > jargone.js
 NUMJARGON=`wc -l jargonlist.txt | awk '{print $1}'`
-echo $NUMJARGON
 COUNTER=0
 while read line; do
     COUNTER=`expr $COUNTER + 1`;
-    echo $COUNTER
     if [ "$COUNTER" == "$NUMJARGON" ]; then
         echo "            '$line';" >> jargone.js
     else

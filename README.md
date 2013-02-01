@@ -7,3 +7,12 @@ Jargone is [a bookmarklet](http://rooreynolds.github.com/jargone/) for highlight
 ##Installation
 
 Follow the two step [installation instructions](http://rooreynolds.github.com/jargone/)
+
+##Adding to the Jargon List
+
+Once some words have been added to the `jargonfile.txt`, the `jargone.js` will need to be rebuilt to include the
+new wordlist. That is as simple as opening a Terminal and from the project directory running:
+
+    ./build.sh
+
+The resulting new `jargone.js` can then be committed to GitHub.

@@ -6,7 +6,7 @@
  * Roo Reynolds | rooreynolds.com | @rooreynolds
  */
 
-(function () { 
+javascript:(function () { 
 
 var kw = ['synergy', 'agenda', 'advancing', 'advanced', 'collaborate', 'collaborating', 'combating', 'commit', 'pledge', 'pledging', 'counter', 'deliver', 'dialogue', 'disincentivise', 'incentivise', 'empower', 'facilitate', 'facilitating', 'focus', 'foster', 'impact', 'initiate', 'initiating', 'key', 'landing', 'landed', 'leverage', 'leveraging', 'liaise', 'liaising', 'overarch', 'progress', 'promote', 'promoting', 'robust', 'slimming down', 'slim down', 'slimmed down', 'streamline', 'strengthening', 'strengthened', 'tackling', 'tackle', 'transforming', 'transform', 'utilise', 'utilising', 'drive forward', 'driving forward', 'driven forward', 'drive out', 'driving out', 'driven out', 'go forward', 'going forward', 'in order to', 'one stop shop', 'ring fencing', 'ring fence', 'ringfence', 'e.g.', 'i.e.'];
 
@@ -21,3 +21,4 @@ for (var j = 0; j < kw.length; j++) {
 }
 
 })();
+

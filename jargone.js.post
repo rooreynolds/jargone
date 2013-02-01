@@ -7,12 +7,7 @@
             word = word + '\\b';
         }
         var regex = new RegExp('(' + word + ')', 'ig');
-
-	    for (var i = 0; i < p.length; i++) {
-	        var para = p[i].innerHTML;
-	        para = para.replace(regex, '<span style=\'background-color: #FFFF88\'>$1<\/span>'); // TODO: replace this dirty hack with something a bit nicer
-	        p[i].innerHTML = para;
-	    }
+        findAndReplace( regex, '<span style="background-color: #FFFF88">$1<\/span>' );
 	}
 })();
 

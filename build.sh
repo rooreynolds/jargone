@@ -14,9 +14,9 @@ COUNTER=0
 while read line; do
     COUNTER=`expr $COUNTER + 1`;
     if [ "$COUNTER" == "$NUMJARGON" ]; then
-        echo "            '$line'" >> jargone.js
+        echo "            [$line]" >> jargone.js
     else
-        echo "            '$line'," >> jargone.js
+        echo "            [$line]," >> jargone.js
     fi
 done < jargonlist.txt
 cat jargone.js.post >> jargone.js

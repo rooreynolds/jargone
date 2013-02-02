@@ -36,12 +36,43 @@
         }
     }
 
+        var css = document.createElement("style");
+    css.type = "text/css";
+    css.innerHTML = ".jargonehighlight { background-color: #FFFF88; } .jargonehasnotes { border-bottom:1px dashed; } #jargonepopup { position: absolute; visibility: hidden; background-color: #FBFBFB; border: solid silver 1px; margin: 5px; padding: 6px;} ";
+    document.getElementsByTagName("head")[0].appendChild(css);
+
+    var popup = document.createElement("div");
+    popup.id = "jargonepopup";
+    popup.innerHTML = "hello";
+    document.body.appendChild(popup);
+
+    document.body.onmousedown = "alert('down');";
+
+    var popupscript = document.createElement("script");
+    popupscript.type = 'text/javascript';
+    popupscript.text = "function popup(element, notes) { "
+        + " if (notes && notes != 'undefined') { "
+        + " notes = unescape(notes); "
+        + " var popup = document.getElementById('jargonepopup'); "
+        + " popup.innerHTML = notes; "
+        + " popup.style.left = element.offsetLeft + 'px'; "
+        + " popup.style.top = element.offsetTop + 12 + 'px' ; "
+        + " popup.style.visibility='visible'; "
+        + "}}";
+    document.getElementsByTagName("head")[0].appendChild(popupscript);
+
     for (var i = 0; i < words.length; i++) { // for each word
-        var word = '\\b' + words[i].replace(/([.*+?^=!:${}()|[\]\/\\])/g, "\\$1");
+        var word = '\\b' + words[i][0].replace(/([.*+?^=!:${}()|[\]\/\\])/g, "\\$1");
         if (word.slice(-1) != '.') {
             word = word + '\\b';
         }
         var regex = new RegExp('(' + word + ')', 'ig');
-        findAndReplace( regex, '<span style="background-color: #FFFF88">$1<\/span>' );
+    
+        if (words[i].length > 0 && words[i][1] != undefined) {
+            findAndReplace( regex, '<span onmouseover="popup(this, \'' + escape(words[i][1]) + '\')" class="jargonehighlight jargonehasnotes">$1<\/span>'); // TODO: replace this dirty hack with something a bit nicer            
+        } else {
+            findAndReplace( regex, '<span onmouseover="popup(this)" class="jargonehighlight">$1<\/span>'); // TODO: replace this dirty hack with something a bit nicer
+        }
+        
     }
 })();

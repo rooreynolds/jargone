@@ -36,17 +36,14 @@
         }
     }
 
-        var css = document.createElement("style");
+    var css = document.createElement("style");
     css.type = "text/css";
     css.innerHTML = ".jargonehighlight { background-color: #FFFF88 !important; } .jargonehasnotes { border-bottom:1px dashed !important; } #jargonepopup { position: absolute; visibility: hidden; background-color: #FBFBFB; border: solid silver 1px; margin: 5px; padding: 6px;} ";
     document.getElementsByTagName("head")[0].appendChild(css);
 
     var popup = document.createElement("div");
     popup.id = "jargonepopup";
-    popup.innerHTML = "hello";
     document.body.appendChild(popup);
-
-    document.body.onmousedown = "alert('down');";
 
     var popupscript = document.createElement("script");
     popupscript.type = 'text/javascript';
@@ -73,6 +70,5 @@
         } else {
             findAndReplace( regex, '<span onmouseover="popup(this)" class="jargonehighlight">$1<\/span>'); // TODO: replace this dirty hack with something a bit nicer
         }
-        
     }
 })();

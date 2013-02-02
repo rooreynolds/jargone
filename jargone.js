@@ -11,20 +11,26 @@ javascript:(function () {
 
     // list of words to avoid based on https://www.gov.uk/designprinciples/styleguide#item_4_1_3
     var words = [
-            ['advanced'],
             ['advancing'],
             ['agenda', "Unless it's for a meeting"],
             ['approximately', "Consider 'about'"],
             ['assist', "Consider 'help'"],
+            ['assisted', "Consider 'help'"],
+            ['assisting', "Consider 'help'"],
             ['being done', "Use the active voice. 'We are doing this'"],
             ['collaborate', "Use 'working with'"],
-            ['collaborating'],
+            ['collaborated', "Use 'worked with'"],
+            ['collaborating', "Use 'working with'"],
             ['combating'],
             ['commit'],
-            ['counter'],
+            ['committed'],
+            ['committing'],
+            ['countering'],
             ['deliver', "Pizzas, post and services are delivered – not abstract concepts like 'improvements' or 'priorities'"],
             ['dialogue', "We speak to people"],
             ['disincentivise'],
+            ['disincentivised'],
+            ['disincentivising'],
             ['drive forward'],
             ['drive out', "Unless it is cattle"],
             ['driven forward'],
@@ -35,7 +41,7 @@ javascript:(function () {
             ['empower'],
             ['facilitate', "Instead, say something specific about how you are helping"],
             ['facilitating', "Instead, say something specific about how you are helping"],
-            ['focus'],
+            ['focusing'],
             ['foster', "Unless it is children"],
             ['fostering', "Unless it is children"],
             ['go forward'],
@@ -47,6 +53,7 @@ javascript:(function () {
             ['initiate'],
             ['initiating'],
             ['key', "Unless it unlocks something. A subject/thing isn't 'key' – it's probably 'important'"],
+            ['land', "Don't use 'land' as a verb unless you are talking about aircraft"],
             ['landed', "Don't use 'land' as a verb unless you are talking about aircraft"],
             ['landing', "Don't use 'land' as a verb unless you are talking about aircraft"],
             ['leverage', "Unless in the financial sense"],
@@ -55,30 +62,40 @@ javascript:(function () {
             ['liaising'],
             ['mobilise'],
             ['one stop shop'],
-            ['overarch'],
+            ['overarching'],
             ['pledge'],
+            ['pledged'],
             ['pledging'],
             ['progress'],
+            ['progressed'],
             ['promote', "Unless you are talking about an ad campaign or similar"],
-            ['promoting'],
+            ['promoted', "Unless you are talking about an ad campaign or similar"],
+            ['promoting', "Unless you are talking about an ad campaign or similar"],
             ['purchase', "Consider 'buy'"],
             ['ring fence'],
+            ['ring fenced'],
             ['ring fencing'],
             ['ringfence'],
+            ['ringfenced'],
             ['robust'],
             ['slim down'],
             ['slimmed down', "Weight-loss is slimming down. Everything else is probably removing x amount of paperwork etc"],
             ['slimming down', "Weight-loss is slimming down. Everything else is probably removing x amount of paperwork etc"],
             ['streamline'],
+            ['streamlined'],
+            ['streamlining'],
             ['strengthened', "Unless it is strengthening bridges or other structures"],
             ['strengthening', "Unless it is strengthening bridges or other structures"],
             ['such as', "Consider 'like'"],
             ['synergy'],
             ['tackle', "Unless it is rugby, football, some other sport"],
+            ['tackled', "Unless it is rugby, football, some other sport"],
             ['tackling', "Unless it is rugby, football, some other sport"],
             ['transform', "What are you actually doing to change it?"],
             ['transforming', "What are you actually doing to change it?"],
+            ['transformed', "What actualled happened to change it?"],
             ['utilise', "Use"],
+            ['utilised', "Used"],
             ['utilising', "Using"]
     ];
 
@@ -120,7 +137,7 @@ javascript:(function () {
 
     var css = document.createElement("style");
     css.type = "text/css";
-    css.innerHTML = ".jargonehighlight { background-color: #FFFF88 !important; } .jargonehasnotes { border-bottom:1px dashed !important; } #jargonepopup { position: absolute; visibility: hidden; background-color: #FBFBFB; border: solid silver 1px; margin: 5px; padding: 6px;} ";
+    css.innerHTML = ".jargonehighlight { border-collapse: none; background-color: #FFFF88 !important; } .jargonehasnotes { border-bottom:1px dashed !important; margin-bottom: 20px; line-spacing: 110%; } #jargonepopup { position: absolute; visibility: hidden; background-color: #FBFBFB; border: solid silver 1px; margin: 5px; padding: 6px;} ";
     document.getElementsByTagName("head")[0].appendChild(css);
 
     var popup = document.createElement("div");

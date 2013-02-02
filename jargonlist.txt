@@ -24,7 +24,6 @@
 'driven out'
 'driving forward'
 'driving out'
-'e.g.'
 'empower'
 'facilitate', "Instead, say something specific about how you are helping"
 'facilitating', "Instead, say something specific about how you are helping"
@@ -33,7 +32,6 @@
 'fostering', "Unless it is children"
 'go forward'
 'going forward'
-'i.e.'
 'impact', "Don't use it as a verb"
 'in order to'
 'incentivise'

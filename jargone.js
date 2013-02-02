@@ -46,7 +46,6 @@ javascript:(function () {
             ['go forward'],
             ['going forward'],
             ['impact', "Don't use it as a verb"],
-            ['in order to'],
             ['incentivise'],
             ['initiate'],
             ['initiating'],
@@ -94,7 +93,8 @@ javascript:(function () {
             ['transformed', "What actualled happened to change it?"],
             ['utilise', "Use"],
             ['utilised', "Used"],
-            ['utilising', "Using"]
+            ['utilising', "Using"],
+            ['webinar']
     ];
 
     // From http://james.padolsey.com/javascript/find-and-replace-text-with-javascript/

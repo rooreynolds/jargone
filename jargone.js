@@ -97,7 +97,67 @@ javascript:(function () {
             ['utilising', "Using"],
             ['webinar']
     ];
-    
+
+	// make words array into hash
+	var dict = (function () {
+		var a,
+			dict = {};
+
+		for (a = 0, b = words.length; a < b; a++) {
+			dict[words[a][0].toLowerCase()] = (typeof words[a][1] !== 'undefined') ? unescape(words[a][1]) :  null;
+		}
+
+		return dict;
+	}());
+
+    function addEvent(elem, eventType, handler) {
+        if (elem.addEventListener) {
+            elem.addEventListener (eventType, handler, false);
+        } else if (elem.attachEvent) {
+            handler = function (e) {
+                var target = (typeof e.target === 'undefined') ? e.srcElement : e.target;
+
+                handler.call(target, { 'target' : target });
+            };
+            elem.attachEvent ('on' + eventType, handler);
+        } else {
+            return false;
+        }
+    };	
+
+    function popupEvt (e) {
+		var element = e.target,
+			term,
+			notes,
+			popup;
+
+		if (!element.className || !element.className.match(/jargonehighlight/)) { return; }
+
+		popup = document.getElementById('jargonepopup');
+
+		if (popup.style.visibility === 'visible') {
+			popup.style.visibility = 'hidden';	
+		} else {
+			term = element.firstChild.nodeValue.toLowerCase();
+
+			for (word in dict) {
+				if (term.match(new RegExp(word)) && dict[term]) {
+					notes = dict[word];
+					popup.innerHTML = notes;
+					popup.style.left = element.getBoundingClientRect().left + 'px';
+					popup.style.top = element.getBoundingClientRect().top + 20 + 'px';
+					popup.style.visibility = 'visible';
+					break;
+				}
+			}
+		}
+		if (event.stopPropagation) {
+			event.stopPropagation();
+		} else {
+			event.cancelBubble = true;
+		}
+	};
+
     // From http://james.padolsey.com/javascript/find-and-replace-text-with-javascript/
     function findAndReplace(searchText, replacement, searchNode) {
         if (!searchText || typeof replacement === 'undefined') {
@@ -143,43 +203,15 @@ javascript:(function () {
     popup.id = "jargonepopup";
     document.body.appendChild(popup);
 
-    var popupscript = document.createElement("script");
-    popupscript.type = 'text/javascript'; 
-    popupscript.text = "function clearpop() { "
-        + "   var popup = document.getElementById('jargonepopup'); "
-        + "   popup.style.visibility='hidden'; "
-        + "   popup.innerHTML=''; "
-        + " } "
-        + " function popup(event, element, notes) { "
-        + " if (!event) { event = window.event; } "
-        + " if (event.stopPropagation) { event.stopPropagation(); } else { event.cancelBubble = true; } "
-        + " if (notes && notes != 'undefined') { "
-        + "   notes = unescape(notes); "
-        + "   var popup = document.getElementById('jargonepopup'); "
-        + "   popup.innerHTML = notes; "
-        + "   popup.style.left = element.getBoundingClientRect().left + 'px'; "
-        + "   popup.style.top = element.getBoundingClientRect().top + 20 + 'px'; "
-        + "   popup.style.visibility='visible'; "
-        + " } else { "
-        + "   clearpop(); "
-        + " } "
-        + "} "
-    document.getElementsByTagName("head")[0].appendChild(popupscript);
-
-    document.body.onmousedown=clearpop;
-    document.onscroll=clearpop;
-
-    for (var i = 0; i < words.length; i++) { // for each word
-        var word = '\\b' + words[i][0].replace(/([.*+?^=!:${}()|[\]\/\\])/g, "\\$1");
-        if (word.slice(-1) != '.') {
-            word = word + '\\b';
+    for (var word in dict) { // for each word
+        var pattern = '\\b' + word.replace(/([.*+?^=!:${}()|[\]\/\\])/g, "\\$1");
+        if (pattern.slice(-1) != '.') {
+            pattern = pattern + '\\b';
         }
-        var regex = new RegExp('(' + word + ')', 'ig');
+        var regex = new RegExp('(' + pattern + ')', 'ig');
     
-        if (words[i].length > 0 && words[i][1] != undefined) {
-            findAndReplace( regex, '<span onmousedown="popup(event, this, \'' + escape(words[i][1]) + '\')" class="jargonehighlight jargonehasnotes">$1<\/span>'); // TODO: replace this dirty hack with something a bit nicer            
-        } else {
-            findAndReplace( regex, '<span onmousedown="popup(event, this)" class="jargonehighlight">$1<\/span>'); // TODO: replace this dirty hack with something a bit nicer
-        }
+		findAndReplace( regex, '<span class="jargonehighlight jargonehasnotes">$1<\/span>');
     }
+	// look for hover events
+	addEvent(document, 'mousedown', popupEvt);
 })();

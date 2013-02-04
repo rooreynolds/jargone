@@ -1,16 +1,6 @@
-    ];
-
-	// make words array into hash
-	var dict = (function () {
-		var a,
-			dict = {};
-
-		for (a = 0, b = words.length; a < b; a++) {
-			dict[words[a][0].toLowerCase()] = (typeof words[a][1] !== 'undefined') ? unescape(words[a][1]) :  null;
-		}
-
-		return dict;
-	}());
+	],
+	wordsLen = words.length,
+	idx;
 
     function addEvent(elem, eventType, handler) {
         if (elem.addEventListener) {
@@ -27,38 +17,52 @@
         }
     };	
 
-    function popupEvt (e) {
-		var element = e.target,
-			term,
-			notes,
-			popup;
+	var popupEvt = (function () {
+		var openIdx = null;
 
-		if (!element.className || !element.className.match(/jargonehighlight/)) { return; }
+		return (function (e) {
+			var element = e.target,
+				term,
+				notes,
+				popup,
+				idx;
 
-		popup = document.getElementById('jargonepopup');
+			if (!element.className || !element.className.match(/jargonehighlight/)) { return; }
 
-		if (popup.style.visibility === 'visible') {
-			popup.style.visibility = 'hidden';	
-		} else {
-			term = element.firstChild.nodeValue.toLowerCase();
+			if ((openIdx !== null) || e.type.match(/(focusout)/)) {
+				popup = document.getElementById('jargonepopup-' + openIdx);
+				if (popup !== null) {
+					document.body.removeChild(popup);
+					openIdx = null;
+					element.removeAttribute('aria-describedby');
+				}
+			} else {
+				term = element.firstChild.nodeValue.toLowerCase();
 
-			for (word in dict) {
-				if (term.match(new RegExp(word)) && dict[term]) {
-					notes = dict[word];
-					popup.innerHTML = notes;
-					popup.style.left = element.getBoundingClientRect().left + 'px';
-					popup.style.top = element.getBoundingClientRect().top + 20 + 'px';
-					popup.style.visibility = 'visible';
-					break;
+				for (idx = 0; idx < wordsLen; idx++ ) {
+					if (term.match(new RegExp(words[idx][0])) && words[idx][1]) {
+						openIdx = idx + 1;
+						notes = words[idx][1];
+						popup = document.createElement("div");
+						popup.id = "jargonepopup-" + openIdx;
+						popup.className = "jargonepopup";
+						document.body.appendChild(popup);
+						popup.innerHTML = notes;
+						popup.style.left = element.getBoundingClientRect().left + 'px';
+						popup.style.top = element.getBoundingClientRect().top + 20 + 'px';
+						popup.style.visibility = 'visible';
+						element.setAttribute('aria-describedby', popup.id);
+						break;
+					}
 				}
 			}
-		}
-		if (event.stopPropagation) {
-			event.stopPropagation();
-		} else {
-			event.cancelBubble = true;
-		}
-	};
+			if (event.stopPropagation) {
+				event.stopPropagation();
+			} else {
+				event.cancelBubble = true;
+			}
+		});
+	}());
 
     // From http://james.padolsey.com/javascript/find-and-replace-text-with-javascript/
     function findAndReplace(searchText, replacement, searchNode) {
@@ -98,22 +102,18 @@
 
     var css = document.createElement("style");
     css.type = "text/css";
-    css.innerHTML = ".jargonehighlight { background-color: #FFFF88 !important; color: black; } .jargonehasnotes { cursor: help; border-bottom:1px dashed !important; } #jargonepopup { position: fixed; z-index: 1000 !important; visibility: hidden; background-color: #FFFFCC; color: black; border: solid silver 1px; margin: 5px; padding: 6px;} ";
+    css.innerHTML = ".jargonehighlight { background-color: #FFFF88 !important; color: black; } .jargonehasnotes { cursor: help; border-bottom:1px dashed !important; } .jargonepopup { position: fixed; z-index: 1000 !important; visibility: hidden; background-color: #FFFFCC; color: black; border: solid silver 1px; margin: 5px; padding: 6px;} ";
     document.getElementsByTagName("head")[0].appendChild(css);
 
-    var popup = document.createElement("div");
-    popup.id = "jargonepopup";
-    document.body.appendChild(popup);
-
-    for (var word in dict) { // for each word
-        var pattern = '\\b' + word.replace(/([.*+?^=!:${}()|[\]\/\\])/g, "\\$1");
+	for (idx = 0; idx < wordsLen; idx++) { // for each word
+		var pattern = '\\b' + words[idx][0].replace(/([.*+?^=!:${}()|[\]\/\\])/g, "\\$1");
         if (pattern.slice(-1) != '.') {
             pattern = pattern + '\\b';
         }
         var regex = new RegExp('(' + pattern + ')', 'ig');
     
-		findAndReplace( regex, '<span class="jargonehighlight jargonehasnotes">$1<\/span>');
-    }
-	// look for hover events
-	addEvent(document, 'mousedown', popupEvt);
+		findAndReplace( regex, '<span class="jargonehighlight jargonehasnotes" tabindex="0">$1<\/span>');
+	}
+	addEvent(document, 'focusin', popupEvt);
+	addEvent(document, 'focusout', popupEvt);
 })();

@@ -28,6 +28,7 @@ javascript:(function () {
             ['countering'],
             ['deliver', "Pizzas, post and services are delivered – not abstract concepts like 'improvements' or 'priorities'"],
             ['dialogue', "We speak to people"],
+            ['discourse', "Discussion"],
             ['disincentivise'],
             ['disincentivised'],
             ['disincentivising'],

@@ -11,6 +11,7 @@ javascript:(function () {
 
     // list of words to avoid based on https://www.gov.uk/designprinciples/styleguide#item_4_1_3
     var words = [
+            ['actioned'],
             ['advancing'],
             ['agenda', "Unless it's for a meeting"],
             ['approximately', "Consider 'about'"],
@@ -54,7 +55,7 @@ javascript:(function () {
             ['land', "Don't use 'land' as a verb unless you are talking about aircraft"],
             ['landed', "Don't use 'land' as a verb unless you are talking about aircraft"],
             ['landing', "Don't use 'land' as a verb unless you are talking about aircraft"],
-            ['leverage', "Unless in the financial sense"],
+            ['leverage', "Unless in the financial or mechanical sense"],
             ['leveraging', "Unless in the financial sense"],
             ['liaise'],
             ['liaising'],
@@ -89,6 +90,7 @@ javascript:(function () {
             ['tackle', "Unless it is rugby, football, some other sport"],
             ['tackled', "Unless it is rugby, football, some other sport"],
             ['tackling', "Unless it is rugby, football, some other sport"],
+            ['tasked'],
             ['transform', "What are you actually doing to change it?"],
             ['transforming', "What are you actually doing to change it?"],
             ['transformed', "What actualled happened to change it?"],

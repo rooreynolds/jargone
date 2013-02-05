@@ -11,6 +11,7 @@ javascript:(function () {
 
     // list of words to avoid based on https://www.gov.uk/designprinciples/styleguide#item_4_1_3
     var words = [
+            ['actioned'],
             ['advancing'],
             ['agenda', "Unless it's for a meeting"],
             ['approximately', "Consider 'about'"],
@@ -45,7 +46,7 @@ javascript:(function () {
             ['foster', "Unless it is children"],
             ['fostering', "Unless it is children"],
             ['go forward'],
-            ['going forward'],
+            ['going forward', "Use 'in future'"],
             ['impact', "Don't use it as a verb"],
             ['incentivise'],
             ['initiate'],
@@ -55,7 +56,7 @@ javascript:(function () {
             ['landed', "Don't use 'land' as a verb unless you are talking about aircraft"],
             ['landing', "Don't use 'land' as a verb unless you are talking about aircraft"],
             ['learnings', "Try 'lessons'"],
-            ['leverage', "Unless in the financial sense"],
+            ['leverage', "Unless in the financial or mechanical sense"],
             ['leveraging', "Unless in the financial sense"],
             ['liaise'],
             ['liaising'],
@@ -93,6 +94,7 @@ javascript:(function () {
             ['transform', "What are you actually doing to change it?"],
             ['transforming', "What are you actually doing to change it?"],
             ['transformed', "What actualled happened to change it?"],
+            ['tasked'],
             ['utilise', "Use"],
             ['utilised', "Used"],
             ['utilising', "Using"],

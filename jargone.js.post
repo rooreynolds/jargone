@@ -1,5 +1,69 @@
-    ];
-    
+	],
+	wordsLen = words.length,
+	idx;
+
+    function addEvent(elem, eventType, handler) {
+        if (elem.addEventListener) {
+            elem.addEventListener (eventType, handler, false);
+        } else if (elem.attachEvent) {
+            handler = function (e) {
+                var target = (typeof e.target === 'undefined') ? e.srcElement : e.target;
+
+                handler.call(target, { 'target' : target });
+            };
+            elem.attachEvent ('on' + eventType, handler);
+        } else {
+            return false;
+        }
+    };	
+
+	var popupEvt = (function () {
+		var openIdx = null;
+
+		return (function (e) {
+			var element = e.target,
+				term,
+				notes,
+				popup,
+				idx;
+
+			if (!element.className || !element.className.match(/jargonehighlight/)) { return; }
+
+			if ((openIdx !== null) || e.type.match(/(focusout)/)) {
+				popup = document.getElementById('jargonepopup-' + openIdx);
+				if (popup !== null) {
+					document.body.removeChild(popup);
+					openIdx = null;
+					element.removeAttribute('aria-describedby');
+				}
+			} else {
+				term = element.firstChild.nodeValue.toLowerCase();
+
+				for (idx = 0; idx < wordsLen; idx++ ) {
+					if (term.match(new RegExp(words[idx][0])) && words[idx][1]) {
+						openIdx = idx + 1;
+						notes = words[idx][1];
+						popup = document.createElement("div");
+						popup.id = "jargonepopup-" + openIdx;
+						popup.className = "jargonepopup";
+						document.body.appendChild(popup);
+						popup.innerHTML = notes;
+						popup.style.left = element.getBoundingClientRect().left + 'px';
+						popup.style.top = element.getBoundingClientRect().top + 20 + 'px';
+						popup.style.visibility = 'visible';
+						element.setAttribute('aria-describedby', popup.id);
+						break;
+					}
+				}
+			}
+			if (event.stopPropagation) {
+				event.stopPropagation();
+			} else {
+				event.cancelBubble = true;
+			}
+		});
+	}());
+
     // From http://james.padolsey.com/javascript/find-and-replace-text-with-javascript/
     function findAndReplace(searchText, replacement, searchNode) {
         if (!searchText || typeof replacement === 'undefined') {
@@ -38,50 +102,22 @@
 
     var css = document.createElement("style");
     css.type = "text/css";
-    css.innerHTML = ".jargonehighlight { background-color: #FFFF88 !important; color: black; } .jargonehasnotes { cursor: help; border-bottom:1px dashed !important; } #jargonepopup { position: fixed; z-index: 1000 !important; visibility: hidden; background-color: #FFFFCC; color: black; border: solid silver 1px; margin: 5px; padding: 6px;} ";
+    css.innerHTML = ".jargonehighlight { background-color: #FFFF88 !important; color: black; } .jargonehasnotes { cursor: help; border-bottom:1px dashed !important; } .jargonepopup { position: fixed; z-index: 1000 !important; visibility: hidden; background-color: #FFFFCC; color: black; border: solid silver 1px; margin: 5px; padding: 6px;} ";
     document.getElementsByTagName("head")[0].appendChild(css);
 
-    var popup = document.createElement("div");
-    popup.id = "jargonepopup";
-    document.body.appendChild(popup);
-
-    var popupscript = document.createElement("script");
-    popupscript.type = 'text/javascript'; 
-    popupscript.text = "function clearpop() { "
-        + "   var popup = document.getElementById('jargonepopup'); "
-        + "   popup.style.visibility='hidden'; "
-        + "   popup.innerHTML=''; "
-        + " } "
-        + " function popup(event, element, notes) { "
-        + " if (!event) { event = window.event; } "
-        + " if (event.stopPropagation) { event.stopPropagation(); } else { event.cancelBubble = true; } "
-        + " if (notes && notes != 'undefined') { "
-        + "   notes = unescape(notes); "
-        + "   var popup = document.getElementById('jargonepopup'); "
-        + "   popup.innerHTML = notes; "
-        + "   popup.style.left = element.getBoundingClientRect().left + 'px'; "
-        + "   popup.style.top = element.getBoundingClientRect().top + 20 + 'px'; "
-        + "   popup.style.visibility='visible'; "
-        + " } else { "
-        + "   clearpop(); "
-        + " } "
-        + "} "
-    document.getElementsByTagName("head")[0].appendChild(popupscript);
-
-    document.body.onmousedown=clearpop;
-    document.onscroll=clearpop;
-
-    for (var i = 0; i < words.length; i++) { // for each word
-        var word = '\\b' + words[i][0].replace(/([.*+?^=!:${}()|[\]\/\\])/g, "\\$1");
-        if (word.slice(-1) != '.') {
-            word = word + '\\b';
+	for (idx = 0; idx < wordsLen; idx++) { // for each word
+		var pattern = '\\b' + words[idx][0].replace(/([.*+?^=!:${}()|[\]\/\\])/g, "\\$1");
+        if (pattern.slice(-1) != '.') {
+            pattern = pattern + '\\b';
         }
-        var regex = new RegExp('(' + word + ')', 'ig');
+        var regex = new RegExp('(' + pattern + ')', 'ig');
     
-        if (words[i].length > 0 && words[i][1] != undefined) {
-            findAndReplace( regex, '<span onmousedown="popup(event, this, \'' + escape(words[i][1]) + '\')" class="jargonehighlight jargonehasnotes">$1<\/span>'); // TODO: replace this dirty hack with something a bit nicer            
-        } else {
-            findAndReplace( regex, '<span onmousedown="popup(event, this)" class="jargonehighlight">$1<\/span>'); // TODO: replace this dirty hack with something a bit nicer
+		if (words[idx].length > 0 && words[idx][1] != undefined) {
+          findAndReplace( regex, '<span class="jargonehighlight jargonehasnotes" tabindex="0">$1<\/span>');
+        } else { // only use jargonehasnotes class if the entry has associated notes
+          findAndReplace( regex, '<span class="jargonehighlight" tabindex="0">$1<\/span>');
         }
-    }
+	}
+	addEvent(document, 'focusin', popupEvt);
+	addEvent(document, 'focusout', popupEvt);
 })();

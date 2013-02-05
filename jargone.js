@@ -54,6 +54,7 @@ javascript:(function () {
             ['land', "Don't use 'land' as a verb unless you are talking about aircraft"],
             ['landed', "Don't use 'land' as a verb unless you are talking about aircraft"],
             ['landing', "Don't use 'land' as a verb unless you are talking about aircraft"],
+            ['learnings', "Try 'lessons'"],
             ['leverage', "Unless in the financial sense"],
             ['leveraging', "Unless in the financial sense"],
             ['liaise'],

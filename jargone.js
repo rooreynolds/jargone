@@ -118,44 +118,60 @@ javascript:(function () {
         }
     };	
 
+	var popup = {
+		addFor : function (element, term) {
+			var idx,
+				notes,
+				popup;
+
+			for (idx = 0; idx < wordsLen; idx++) {
+				if (term.match(new RegExp(words[idx][0])) && words[idx][1]) {
+					notes = words[idx][1];
+					popup = document.createElement("div");
+					popup.id = "jargonepopup-" + (idx + 1);
+					popup.className = "jargonepopup";
+					document.body.appendChild(popup);
+					popup.innerHTML = notes;
+					popup.style.left = element.getBoundingClientRect().left + 'px';
+					popup.style.top = element.getBoundingClientRect().top + 20 + 'px';
+					popup.style.visibility = 'visible';
+					element.setAttribute('aria-describedby', popup.id);
+					this.current.idx = (idx + 1);
+					this.current.element = element;
+					break;
+				}
+			}
+
+		},
+		remove : function () {
+			var popup = document.getElementById("jargonepopup-" + this.current.idx);
+
+			if (popup) {
+				document.body.removeChild(popup);
+				this.current.element.removeAttribute('aria-describedby');
+				this.current.idx = null;
+			}
+		},
+		current : {
+			idx : null,
+			element : null
+		}
+	};
+
 	var popupEvt = (function () {
 		var openIdx = null;
 
 		return (function (e) {
 			var element = e.target,
-				term,
-				notes,
-				popup,
-				idx;
+				term;
 
 			if (!element.className || !element.className.match(/jargonehighlight/)) { return; }
 
 			if ((openIdx !== null) || e.type.match(/(focusout)/)) {
-				popup = document.getElementById('jargonepopup-' + openIdx);
-				if (popup !== null) {
-					document.body.removeChild(popup);
-					openIdx = null;
-					element.removeAttribute('aria-describedby');
-				}
+				popup.remove();
 			} else {
 				term = element.firstChild.nodeValue.toLowerCase();
-
-				for (idx = 0; idx < wordsLen; idx++ ) {
-					if (term.match(new RegExp(words[idx][0])) && words[idx][1]) {
-						openIdx = idx + 1;
-						notes = words[idx][1];
-						popup = document.createElement("div");
-						popup.id = "jargonepopup-" + openIdx;
-						popup.className = "jargonepopup";
-						document.body.appendChild(popup);
-						popup.innerHTML = notes;
-						popup.style.left = element.getBoundingClientRect().left + 'px';
-						popup.style.top = element.getBoundingClientRect().top + 20 + 'px';
-						popup.style.visibility = 'visible';
-						element.setAttribute('aria-describedby', popup.id);
-						break;
-					}
-				}
+				popup.addFor(element, term);
 			}
 			if (event.stopPropagation) {
 				event.stopPropagation();
@@ -221,4 +237,5 @@ javascript:(function () {
 	}
 	addEvent(document, 'focusin', popupEvt);
 	addEvent(document, 'focusout', popupEvt);
+	addEvent(document, 'scroll', function () { popup.remove(); });
 })();

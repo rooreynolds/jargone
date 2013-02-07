@@ -59,6 +59,8 @@
 'promoted', "Unless you are talking about an ad campaign or similar"
 'promoting', "Unless you are talking about an ad campaign or similar"
 'purchase', "Consider 'buy'"
+'reach out to', "Consider 'contact'"
+'reached out to', "Consider 'contacted'"
 'ring fence'
 'ring fenced'
 'ring fencing'

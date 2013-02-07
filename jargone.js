@@ -119,29 +119,20 @@ javascript:(function () {
     };	
 
 	var popup = {
-		addFor : function (element, term) {
-			var idx,
-				notes,
-				popup;
+		add : function (element, notes, idx) {
+			var popup;
 
-			for (idx = 0; idx < wordsLen; idx++) {
-				if (term.match(new RegExp(words[idx][0])) && words[idx][1]) {
-					notes = words[idx][1];
-					popup = document.createElement("div");
-					popup.id = "jargonepopup-" + (idx + 1);
-					popup.className = "jargonepopup";
-					document.body.appendChild(popup);
-					popup.innerHTML = notes;
-					popup.style.left = element.getBoundingClientRect().left + 'px';
-					popup.style.top = element.getBoundingClientRect().top + 20 + 'px';
-					popup.style.visibility = 'visible';
-					element.setAttribute('aria-describedby', popup.id);
-					this.current.idx = (idx + 1);
-					this.current.element = element;
-					break;
-				}
-			}
-
+			popup = document.createElement("div");
+			popup.id = "jargonepopup-" + (idx + 1);
+			popup.className = "jargonepopup";
+			document.body.appendChild(popup);
+			popup.innerHTML = notes;
+			popup.style.left = element.getBoundingClientRect().left + 'px';
+			popup.style.top = element.getBoundingClientRect().top + 20 + 'px';
+			popup.style.visibility = 'visible';
+			element.setAttribute('aria-describedby', popup.id);
+			this.current.idx = (idx + 1);
+			this.current.element = element;
 		},
 		remove : function () {
 			var popup = document.getElementById("jargonepopup-" + this.current.idx);
@@ -150,6 +141,7 @@ javascript:(function () {
 				document.body.removeChild(popup);
 				this.current.element.removeAttribute('aria-describedby');
 				this.current.idx = null;
+				this.current.element = null;
 			}
 		},
 		current : {
@@ -159,7 +151,8 @@ javascript:(function () {
 	};
 
 	var popupEvt = (function () {
-		var openIdx = null;
+		var openIdx = null,
+			focusedWord = null;
 
 		return (function (e) {
 			var element = e.target,
@@ -167,12 +160,27 @@ javascript:(function () {
 
 			if (!element.className || !element.className.match(/jargonehighlight/)) { return; }
 
-			if ((openIdx !== null) || e.type.match(/(focusout)/)) {
+			if ((openIdx !== null) || (e.type === 'focusout')) {
 				popup.remove();
+				focusedElement = null;
 			} else {
 				term = element.firstChild.nodeValue.toLowerCase();
-				popup.addFor(element, term);
+				for (idx = 0; idx < wordsLen; idx++) {
+					if (term.match(new RegExp(words[idx][0])) && words[idx][1]) {
+						// clicks give focus so use it for capturing both events
+						// focus is retained by elements when scrolling clears their popup so use clicks as backup
+						if (e.type === 'click') {
+							if ((focusedWord === element) && (popup.current.element === null)) {
+								popup.add(element, words[idx][1], idx);
+							}
+						} else { // focusin
+							focusedWord = element;
+							popup.add(element, words[idx][1], idx);
+						}
+					}
+				}
 			}
+
 			if (event.stopPropagation) {
 				event.stopPropagation();
 			} else {
@@ -237,5 +245,6 @@ javascript:(function () {
 	}
 	addEvent(document, 'focusin', popupEvt);
 	addEvent(document, 'focusout', popupEvt);
+	addEvent(document, 'click', popupEvt);
 	addEvent(document, 'scroll', function () { popup.remove(); });
 })();

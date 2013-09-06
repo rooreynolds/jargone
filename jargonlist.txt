@@ -29,6 +29,7 @@
 'empower'
 'facilitate', "Instead, say something specific about how you are helping"
 'facilitating', "Instead, say something specific about how you are helping"
+'faq', "Instead, improve the original communication piece so that questions are asked *in*frequently" 
 'focusing', "Unless in the photographic sense"
 'foster', "Unless it is children"
 'fostering', "Unless it is children"

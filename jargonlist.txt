@@ -15,6 +15,7 @@
 'committing'
 'countering'
 'deliver', "Pizzas, post and services are delivered – not abstract concepts like 'improvements' or 'priorities'"
+'deploy'
 'dialogue', "We speak to people"
 'discourse', "Discussion"
 'disincentivise'
@@ -36,6 +37,7 @@
 'go forward'
 'going forward', "Use 'in future'"
 'impact', "Don't use it as a verb"
+'in order to'
 'incentivise'
 'initiate'
 'initiating'
@@ -52,6 +54,7 @@
 'moving forward'
 'moving toward'
 'one stop shop'
+'one-stop shop'
 'overarching'
 'pledge'
 'pledged'

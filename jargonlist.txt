@@ -1,124 +1,107 @@
-'actioned'
-'advancing'
-'agenda', "Unless it's for a meeting"
-'approximately', "Consider 'about'"
-'assist', "Consider 'help'"
-'assisted', "Consider 'help'"
-'assisting', "Consider 'help'"
+'advancing',"www.gov.uk/design-principles/style-guide"
+'agenda', "Unless it's for a meeting - www.gov.uk/design-principles/style-guide"
+'approximately', "Consider 'about' - www.gov.uk/design-principles/style-guide"
+'assist', "Consider 'help' - www.gov.uk/design-principles/style-guide"
+'assisted', "Consider 'helped' - www.gov.uk/design-principles/style-guide"
+'assisting', "Consider 'helping' - www.gov.uk/design-principles/style-guide"
 'being done', "Use the active voice. 'We are doing this'"
-'collaborate', "Use 'working with'"
-'collaborated', "Use 'worked with'"
-'collaborating', "Use 'working with'"
-'combating'
-'commit'
-'committed'
-'committing'
-'countering'
-'deliver', "Pizzas, post and services are delivered – not abstract concepts like 'improvements' or 'priorities'"
-'deploy'
-'dialogue', "We speak to people"
-'discourse', "Discussion"
-'disincentivise'
-'disincentivised'
-'disincentivising'
-'drive forward'
-'drive out', "Unless it is cattle"
-'driven forward'
-'driven out'
-'drive'
-'driving forward'
-'driving out'
-'empower'
-'facilitate', "Instead, say something specific about how you are helping"
-'facilitating', "Instead, say something specific about how you are helping"
+'collaborate', "Use 'working with' - www.gov.uk/design-principles/style-guide"
+'collaborated', "Use 'worked with' - www.gov.uk/design-principles/style-guide"
+'collaborating', "Use 'working with' - www.gov.uk/design-principles/style-guide"
+'combating',"www.gov.uk/design-principles/style-guide"
+'committing',"We need to be more specific – we’re either doing something or we’re not - www.gov.uk/design-principles/style-guide"
+'commit',"We need to be more specific – we’re either doing something or we’re not - www.gov.uk/design-principles/style-guide"
+'countering',"www.gov.uk/design-principles/style-guide"
+'deliver', "Pizzas, post and services are delivered – not abstract concepts like 'improvements' or 'priorities' - www.gov.uk/design-principles/style-guide"
+'deploy',"unless it's military or software - www.gov.uk/design-principles/style-guide"
+'dialogue', "We speak to people - www.gov.uk/design-principles/style-guide"
+'disincentivised',"www.gov.uk/design-principles/style-guide"
+'disincentivise',"www.gov.uk/design-principles/style-guide"
+'disincentivising',"www.gov.uk/design-principles/style-guide"
+'drive out', "Unless it is cattle - www.gov.uk/design-principles/style-guide"
+'driven out', "Unless it is cattle - www.gov.uk/design-principles/style-guide"
+'driving out', "Unless it is cattle - www.gov.uk/design-principles/style-guide"
+'drive',"You can only drive vehicles; not schemes or people - www.gov.uk/design-principles/style-guide"
+'empower',"www.gov.uk/design-principles/style-guide"
+'facilitate', "Instead, say something specific about how you are helping - www.gov.uk/design-principles/style-guide"
+'facilitating', "Instead, say something specific about how you are helping - www.gov.uk/design-principles/style-guide"
 'faq', "Instead, improve the original communication piece so that questions are asked *in*frequently. See www.gov.uk/design-principles/style-guide#faqs"
-'focusing', "Unless in the photographic sense"
-'foster', "Unless it is children"
-'fostering', "Unless it is children"
-'go forward'
-'going forward', "Use 'in future'"
-'impact', "Don't use it as a verb"
-'in order to'
-'incentivise'
-'initiate'
-'initiating'
-'key', "Unless it unlocks something. A subject/thing isn't 'key' – it's probably 'important'"
-'land', "Don't use 'land' as a verb unless you are talking about aircraft"
-'landed', "Don't use 'land' as a verb unless you are talking about aircraft"
-'landing', "Don't use 'land' as a verb unless you are talking about aircraft"
-'learnings', "Try 'lessons'"
-'leverage', "Unless in the financial or mechanical sense"
-'leveraging', "Unless in the financial sense"
-'liaise'
-'liaising'
-'low hanging fruit'
-'mobilise'
-'moving forward'
-'moving toward'
-'one stop shop'
-'one-stop shop'
-'overarching'
-'pledged'
-'pledging'
-'pledge'
-'progress'
-'progressed'
-'promote', "Unless you are talking about an ad campaign or similar"
-'promoted', "Unless you are talking about an ad campaign or similar"
-'promoting', "Unless you are talking about an ad campaign or similar"
-'purchase', "Consider 'buy'"
-'reach out to', "Consider 'contact'"
-'reached out to', "Consider 'contacted'"
-'ring fence'
-'ring fenced'
-'ring fencing'
-'ringfence'
-'ringfenced'
-'robust'
-'slim down'
-'slimmed down', "Weight-loss is slimming down. Everything else is probably removing x amount of paperwork etc"
-'slimming down', "Weight-loss is slimming down. Everything else is probably removing x amount of paperwork etc"
-'streamline'
-'streamlined'
-'streamlining'
-'strengthened', "Unless it is strengthening bridges or other structures"
-'strengthening', "Unless it is strengthening bridges or other structures"
-'such as', "Consider 'like'"
-'synergy'
-'tackled', "Unless it is rugby, football, some other sport"
-'tackling', "Unless it is rugby, football, some other sport"
-'tackle', "Unless it is rugby, football, some other sport"
-'transforming', "What are you actually doing to change it?"
-'transformed', "What actualled happened to change it?"
-'transform', "What are you actually doing to change it?"
-'tasked'
-'utilise', "Use"
-'utilised', "Used"
-'utilising', "Using"
-'webinar'
-'the disabled',"Use 'disabled people' not 'the disabled' as the collective term"
-'deaf to our pleas',"Common phrases that may associate impairments with negative things should be avoided, for example 'deaf to our pleas' or 'blind drunk'."
-'blind drunk',"Common phrases that may associate impairments with negative things should be avoided, for example 'deaf to our pleas' or 'blind drunk'."
-'the handicapped',"disabled (people)"
-'the disabled',"disabled (people)"
-'confined to a wheelchair',"wheelchair user"
-'wheelchair-bound',"wheelchair user"
-'mentally handicapped',"with a learning disability (singular) with learning disabilities (plural)"
-'mentally defective',"with a learning disability (singular) with learning disabilities (plural)"
-'retarded',"with a learning disability (singular) with learning disabilities (plural)"
-'subnormal',"with a learning disability (singular) with learning disabilities (plural)"
-'cripple',"disabled person"
-'spastic',"person with cerebral palsy"
-'able-bodied',"non-disabled"
-'mental patient',"person with a mental health condition"
-'deaf and dumb',"deaf, user of British sign language, person with a hearing impairment"
-'deaf mute',"deaf, user of British sign language, person with a hearing impairment"
-'the blind',"people with visual impairments; blind people; blind and partially sighted people"
-'an epileptic',"a person with / someone who has epilepsy"
-'a diabetic',"a person with / someone who has diabetes"
-'a depressive',"a person with / someone who has depression"
-'dwarf',"someone with restricted growth"
-'midget',"someone with restricted growth"
+'focusing', "Unless in the photographic sense - www.gov.uk/design-principles/style-guide"
+'foster', "Unless it is children - www.gov.uk/design-principles/style-guide"
+'fostering', "Unless it is children - www.gov.uk/design-principles/style-guide"
+'going forward', "Use 'in future' - www.gov.uk/design-principles/style-guide"
+'impact', "Don't use it as a verb - www.gov.uk/design-principles/style-guide"
+'in order to',"Superfluous – don’t use it - www.gov.uk/design-principles/style-guide"
+'incentivised',"www.gov.uk/design-principles/style-guide"
+'incentivise',"www.gov.uk/design-principles/style-guide"
+'incentivising',"www.gov.uk/design-principles/style-guide"
+'initiate',"www.gov.uk/design-principles/style-guide"
+'initiating',"www.gov.uk/design-principles/style-guide"
+'key', "Unless it unlocks something. A subject/thing isn't 'key' – it's probably 'important' - www.gov.uk/design-principles/style-guide"
+'land', "Don't use 'land' as a verb unless you are talking about aircraft - www.gov.uk/design-principles/style-guide"
+'landed', "Don't use 'land' as a verb unless you are talking about aircraft - www.gov.uk/design-principles/style-guide"
+'landing', "Don't use 'land' as a verb unless you are talking about aircraft - www.gov.uk/design-principles/style-guide"
+'learnings', "Try 'lessons' - www.gov.uk/design-principles/style-guide"
+'leverage', "Unless in the financial or mechanical sense - www.gov.uk/design-principles/style-guide"
+'leveraging', "Unless in the financial sense - www.gov.uk/design-principles/style-guide"
+'liaise',"www.gov.uk/design-principles/style-guide"
+'liaising',"www.gov.uk/design-principles/style-guide"
+'pledging',"We need to be more specific – we’re either doing something or we’re not - www.gov.uk/design-principles/style-guide"
+'pledge',"We need to be more specific – we’re either doing something or we’re not - www.gov.uk/design-principles/style-guide"
+'progress',"As a verb – what are you actually doing? - www.gov.uk/design-principles/style-guide"
+'progressed',"As a verb – what are you actually doing? - www.gov.uk/design-principles/style-guide"
+'promote', "Unless you are talking about an ad campaign or similar - www.gov.uk/design-principles/style-guide"
+'promoted', "Unless you are talking about an ad campaign or similar - www.gov.uk/design-principles/style-guide"
+'promoting', "Unless you are talking about an ad campaign or similar - www.gov.uk/design-principles/style-guide"
+'purchase', "Consider 'buy' - www.gov.uk/design-principles/style-guide"
+'ring fence',"www.gov.uk/design-principles/style-guide"
+'ring fenced',"www.gov.uk/design-principles/style-guide"
+'ring fencing',"www.gov.uk/design-principles/style-guide"
+'ringfence',"www.gov.uk/design-principles/style-guide"
+'ringfenced',"www.gov.uk/design-principles/style-guide"
+'robust','www.gov.uk/design-principles/style-guide'
+'slim down',"www.gov.uk/design-principles/style-guide"
+'slimmed down',"Processes don’t diet – we are probably removing x amount of paperwork, etc - www.gov.uk/design-principles/style-guide"
+'slimming down',"Processes don’t diet – we are probably removing x amount of paperwork, etc - www.gov.uk/design-principles/style-guide"
+'streamline',"www.gov.uk/design-principles/style-guide"
+'streamlined',"www.gov.uk/design-principles/style-guide"
+'streamlining',"www.gov.uk/design-principles/style-guide"
+'strengthened', "Unless it is strengthening bridges or other structures - www.gov.uk/design-principles/style-guide"
+'strengthening', "Unless it is strengthening bridges or other structures - www.gov.uk/design-principles/style-guide"
+'such as', "Consider 'like' - www.gov.uk/design-principles/style-guide"
+'tackled', "Unless it is rugby, football, some other sport - www.gov.uk/design-principles/style-guide"
+'tackling', "Unless it is rugby, football, some other sport - www.gov.uk/design-principles/style-guide"
+'tackle', "Unless it is rugby, football, some other sport - www.gov.uk/design-principles/style-guide"
+'transforming', "What are you actually doing to change it? - www.gov.uk/design-principles/style-guide"
+'transformed', "What actualled happened to change it? - www.gov.uk/design-principles/style-guide"
+'transform', "What are you actually doing to change it? - www.gov.uk/design-principles/style-guide"
+'utilise', "Use - www.gov.uk/design-principles/style-guide"
+'utilised', "Used - www.gov.uk/design-principles/style-guide"
+'utilising', "Using - www.gov.uk/design-principles/style-guide"
+'you may be able to',"Do not let caveats dictate unwieldy grammar – eg say 'You can' rather than 'You may be able to' - www.gov.uk/design-principles/style-guide - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'the disabled',"Use 'disabled people' not 'the disabled' as the collective term - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'deaf to our pleas',"Common phrases that may associate impairments with negative things should be avoided, for example 'deaf to our pleas' or 'blind drunk' - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'blind drunk',"Common phrases that may associate impairments with negative things should be avoided, for example 'deaf to our pleas' or 'blind drunk' - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'the handicapped',"disabled (people) - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'the disabled',"disabled (people) - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'confined to a wheelchair',"wheelchair user - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'wheelchair-bound',"wheelchair user - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'mentally handicapped',"with a learning disability (singular) with learning disabilities (plural) - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'mentally defective',"with a learning disability (singular) with learning disabilities (plural) - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'retarded',"with a learning disability (singular) with learning disabilities (plural) - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'subnormal',"with a learning disability (singular) with learning disabilities (plural) - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'cripple',"disabled person - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'spastic',"person with cerebral palsy - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'able-bodied',"non-disabled - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'mental patient',"person with a mental health condition - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'deaf and dumb',"deaf, user of British sign language, person with a hearing impairment - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'deaf mute',"deaf, user of British sign language, person with a hearing impairment - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'the blind',"people with visual impairments; blind people; blind and partially sighted people - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'an epileptic',"a person with / someone who has epilepsy - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'a diabetic',"a person with / someone who has diabetes - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'a depressive',"a person with / someone who has depression - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'dwarf',"someone with restricted growth - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'midget',"someone with restricted growth - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
 'iron resolution',"a metaphor which is technically “dead” (e.g., iron resolution) has in effect reverted to being an ordinary word and can generally be used without loss of vividness. - George Orwell, Politics and the English Language, Horizon, April 1946"
 'toe the line',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"
 'tow the line',"Some metaphors now current have been twisted out of their original meaning without those who use them even being aware of the fact. For example, 'toe the line' is sometimes written 'tow the line'. - George Orwell, Politics and the English Language, Horizon, April 1946"
@@ -383,3 +366,24 @@
 'upward trend',"(Local Government Association banned words, 2009)"
 'wellbeing',"(Local Government Association banned words, 2009)"
 'worklessness',"(Local Government Association banned words, 2009)"
+'actioned'
+'discourse', "Discussion"
+'drive forward'
+'driven forward'
+'driving forward'
+'front door'
+'go forward'
+'low hanging fruit'
+'mobilise'
+'moving forward'
+'moving toward'
+'no wrong door'
+'one front door'
+'one stop shop'
+'one-stop shop'
+'overarching'
+'reach out to', "Consider 'contact'"
+'reached out to', "Consider 'contacted'"
+'synergy'
+'tasked'
+'webinar'

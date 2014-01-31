@@ -25,6 +25,7 @@
 'drive out', "Unless it is cattle"
 'driven forward'
 'driven out'
+'drive'
 'driving forward'
 'driving out'
 'empower'
@@ -95,6 +96,29 @@
 'utilised', "Used"
 'utilising', "Using"
 'webinar'
+'the disabled',"Use 'disabled people' not 'the disabled' as the collective term"
+'deaf to our pleas',"Common phrases that may associate impairments with negative things should be avoided, for example 'deaf to our pleas' or 'blind drunk'."
+'blind drunk',"Common phrases that may associate impairments with negative things should be avoided, for example 'deaf to our pleas' or 'blind drunk'."
+'the handicapped',"disabled (people)"
+'the disabled',"disabled (people)"
+'confined to a wheelchair',"wheelchair user"
+'wheelchair-bound',"wheelchair user"
+'mentally handicapped',"with a learning disability (singular) with learning disabilities (plural)"
+'mentally defective',"with a learning disability (singular) with learning disabilities (plural)"
+'retarded',"with a learning disability (singular) with learning disabilities (plural)"
+'subnormal',"with a learning disability (singular) with learning disabilities (plural)"
+'cripple',"disabled person"
+'spastic',"person with cerebral palsy"
+'able-bodied',"non-disabled"
+'mental patient',"person with a mental health condition"
+'deaf and dumb',"deaf, user of British sign language, person with a hearing impairment"
+'deaf mute',"deaf, user of British sign language, person with a hearing impairment"
+'the blind',"people with visual impairments; blind people; blind and partially sighted people"
+'an epileptic',"a person with / someone who has epilepsy"
+'a diabetic',"a person with / someone who has diabetes"
+'a depressive',"a person with / someone who has depression"
+'dwarf',"someone with restricted growth"
+'midget',"someone with restricted growth"
 'iron resolution',"a metaphor which is technically “dead” (e.g., iron resolution) has in effect reverted to being an ordinary word and can generally be used without loss of vividness. - George Orwell, Politics and the English Language, Horizon, April 1946"
 'toe the line',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"
 'tow the line',"Some metaphors now current have been twisted out of their original meaning without those who use them even being aware of the fact. For example, 'toe the line' is sometimes written 'tow the line'. - George Orwell, Politics and the English Language, Horizon, April 1946"
@@ -207,7 +231,6 @@
 'good practice',"(Local Government Association banned words, 2007)"
 'good-practice',"(Local Government Association banned words, 2007)"
 'governance',"(Local Government Association banned words, 2007)"
-'guidelines',"(Local Government Association banned words, 2007)"
 'holistic',"(Local Government Association banned words, 2007)"
 'improvement levers',"(Local Government Association banned words, 2007)"
 'incentivising',"(Local Government Association banned words, 2007)"

@@ -15,6 +15,7 @@
 'committing'
 'countering'
 'deliver', "Pizzas, post and services are delivered – not abstract concepts like 'improvements' or 'priorities'"
+'deploy'
 'dialogue', "We speak to people"
 'discourse', "Discussion"
 'disincentivise'
@@ -29,12 +30,14 @@
 'empower'
 'facilitate', "Instead, say something specific about how you are helping"
 'facilitating', "Instead, say something specific about how you are helping"
-'focusing'
+'faq', "Instead, improve the original communication piece so that questions are asked *in*frequently" 
+'focusing', "Unless in the photographic sense"
 'foster', "Unless it is children"
 'fostering', "Unless it is children"
 'go forward'
 'going forward', "Use 'in future'"
 'impact', "Don't use it as a verb"
+'in order to'
 'incentivise'
 'initiate'
 'initiating'
@@ -48,7 +51,10 @@
 'liaise'
 'liaising'
 'mobilise'
+'moving forward'
+'moving toward'
 'one stop shop'
+'one-stop shop'
 'overarching'
 'pledge'
 'pledged'
@@ -88,3 +94,4 @@
 'utilised', "Used"
 'utilising', "Using"
 'webinar'
+'working for', "Unless it is related to employment"

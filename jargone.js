@@ -28,6 +28,7 @@ javascript:(function () {
             ['committing'],
             ['countering'],
             ['deliver', "Pizzas, post and services are delivered – not abstract concepts like 'improvements' or 'priorities'"],
+            ['deploy'],
             ['dialogue', "We speak to people"],
             ['discourse', "Discussion"],
             ['disincentivise'],
@@ -42,12 +43,14 @@ javascript:(function () {
             ['empower'],
             ['facilitate', "Instead, say something specific about how you are helping"],
             ['facilitating', "Instead, say something specific about how you are helping"],
-            ['focusing'],
+            ['faq', "Instead, improve the original communication piece so that questions are asked *in*frequently. See www.gov.uk/design-principles/style-guide#faqs"],
+            ['focusing', "Unless in the photographic sense"],
             ['foster', "Unless it is children"],
             ['fostering', "Unless it is children"],
             ['go forward'],
             ['going forward', "Use 'in future'"],
             ['impact', "Don't use it as a verb"],
+            ['in order to'],
             ['incentivise'],
             ['initiate'],
             ['initiating'],
@@ -60,18 +63,24 @@ javascript:(function () {
             ['leveraging', "Unless in the financial sense"],
             ['liaise'],
             ['liaising'],
+            ['low hanging fruit'],
             ['mobilise'],
+            ['moving forward'],
+            ['moving toward'],
             ['one stop shop'],
+            ['one-stop shop'],
             ['overarching'],
-            ['pledge'],
             ['pledged'],
             ['pledging'],
+            ['pledge'],
             ['progress'],
             ['progressed'],
             ['promote', "Unless you are talking about an ad campaign or similar"],
             ['promoted', "Unless you are talking about an ad campaign or similar"],
             ['promoting', "Unless you are talking about an ad campaign or similar"],
             ['purchase', "Consider 'buy'"],
+            ['reach out to', "Consider 'contact'"],
+            ['reached out to', "Consider 'contacted'"],
             ['ring fence'],
             ['ring fenced'],
             ['ring fencing'],
@@ -88,17 +97,90 @@ javascript:(function () {
             ['strengthening', "Unless it is strengthening bridges or other structures"],
             ['such as', "Consider 'like'"],
             ['synergy'],
-            ['tackle', "Unless it is rugby, football, some other sport"],
             ['tackled', "Unless it is rugby, football, some other sport"],
             ['tackling', "Unless it is rugby, football, some other sport"],
-            ['transform', "What are you actually doing to change it?"],
+            ['tackle', "Unless it is rugby, football, some other sport"],
             ['transforming', "What are you actually doing to change it?"],
             ['transformed', "What actualled happened to change it?"],
+            ['transform', "What are you actually doing to change it?"],
             ['tasked'],
             ['utilise', "Use"],
             ['utilised', "Used"],
             ['utilising', "Using"],
-            ['webinar']
+            ['webinar'],
+            ['iron resolution',"a metaphor which is technically “dead” (e.g., iron resolution) has in effect reverted to being an ordinary word and can generally be used without loss of vividness. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['toe the line',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['tow the line',"Some metaphors now current have been twisted out of their original meaning without those who use them even being aware of the fact. For example, 'toe the line' is sometimes written 'tow the line'. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['ring the changes',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['ringed the changes',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['ringing the changes',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['ride roughshod over',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['ride roughshod',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['riding roughshod',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['stand shoulder to shoulder',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['standing shoulder to shoulder',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['stood shoulder to shoulder',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['play into the hands',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['played into the hands',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['axe to grind',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['grist to the mill',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['troubled waters',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['order of the day',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['swan song',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['hotbed',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['render inoperative',"Verbal false limbs. These save the trouble of picking out appropriate verbs and nouns, and at the same time pad each sentence with extra syllables which give it an appearance of symmetry. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['rendered inoperative',"Verbal false limbs. These save the trouble of picking out appropriate verbs and nouns, and at the same time pad each sentence with extra syllables which give it an appearance of symmetry. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['give rise to',"Verbal false limbs. These save the trouble of picking out appropriate verbs and nouns, and at the same time pad each sentence with extra syllables which give it an appearance of symmetry. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['given rise to',"Verbal false limbs. These save the trouble of picking out appropriate verbs and nouns, and at the same time pad each sentence with extra syllables which give it an appearance of symmetry. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['gave rise to',"Verbal false limbs. These save the trouble of picking out appropriate verbs and nouns, and at the same time pad each sentence with extra syllables which give it an appearance of symmetry. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['play a leading part',"Verbal false limbs. These save the trouble of picking out appropriate verbs and nouns, and at the same time pad each sentence with extra syllables which give it an appearance of symmetry. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['played a leading part',"Verbal false limbs. These save the trouble of picking out appropriate verbs and nouns, and at the same time pad each sentence with extra syllables which give it an appearance of symmetry. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['make itself felt',"Verbal false limbs. These save the trouble of picking out appropriate verbs and nouns, and at the same time pad each sentence with extra syllables which give it an appearance of symmetry. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['by examination',"Why not 'by examining'?"],
+            ['not un',"banal statements are given an appearance of profundity by means of the not un- formation. … One can cure oneself of the not un-formation by memorising this sentence: A not unblock dog was chasing a not unsmall rabbit across a not ungreen field. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['with respect to',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['having regard to',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['the fact that',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['by dint of',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['in the interests of',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['on the hypothesis that',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['greatly to be desired',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['development to be expected',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['expected in the near future',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['deserving serious consideration',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['deserves serious consideration',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['deserved serious consideration',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['brought to a satisfactory conclusion',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['epoch-making', "Adjectives like epoch-making … are used to dignify the sordid processes of international politics. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['epic', "Adjectives like .. epic … are used to dignify the sordid processes of international politics. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['triumphant', "Adjectives like .. triumphant … are used to dignify the sordid processes of international politics. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['unforgettable', "Adjectives like .. unforgettable … are used to dignify the sordid processes of international politics. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['deus ex machine', "Bad writers, and especially scientific, political and sociological writers, are nearly always haunted by the notion that Latin or Greek words are grander than Saxon ones. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['status quo', "Bad writers, and especially scientific, political and sociological writers, are nearly always haunted by the notion that Latin or Greek words are grander than Saxon ones. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['expedite', "Bad writers, and especially scientific, political and sociological writers, are nearly always haunted by the notion that Latin or Greek words are grander than Saxon ones. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['ameliorate', "Bad writers, and especially scientific, political and sociological writers, are nearly always haunted by the notion that Latin or Greek words are grander than Saxon ones. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['exhibit',"Words like … exhibit … are used to dress up simple statements and give an air of scientific impartiality to biased judgments. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['utilize',"Words like … utilize … are used to dress up simple statements and give an air of scientific impartiality to biased judgments. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['categorical',"Words like … categorical … are used to dress up simple statements and give an air of scientific impartiality to biased judgments. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['bestial atrocities',"When one watches some tired hack on the platform mechanically repeating the familiar phrases … one often has a curious feeling that one is not watching a live human being but some kind of dummy… - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['iron heel',"When one watches some tired hack on the platform mechanically repeating the familiar phrases … one often has a curious feeling that one is not watching a live human being but some kind of dummy… - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['bloodstained tyranny',"When one watches some tired hack on the platform mechanically repeating the familiar phrases … one often has a curious feeling that one is not watching a live human being but some kind of dummy… - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['free peoples of the world',"When one watches some tired hack on the platform mechanically repeating the familiar phrases … one often has a curious feeling that one is not watching a live human being but some kind of dummy… - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['shoulder to shoulder',"When one watches some tired hack on the platform mechanically repeating the familiar phrases … one often has a curious feeling that one is not watching a live human being but some kind of dummy… - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['do well to bear in mind',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['leaves much to be desired',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['leave much to be desired',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['serve no good purpose',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['lay the foundations',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['radical transformation',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['explore every avenue',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['leave no stone unturned',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['leaving no stone unturned',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['left no stone unturned',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['leaving no stone unturned',"George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['jackboot',"from time to time one can even, if one jeers loudly enough, send some worn-out and useless phrase … into the dustbin where it belongs. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['melting pot',"from time to time one can even, if one jeers loudly enough, send some worn-out and useless phrase … into the dustbin where it belongs. - George Orwell, Politics and the English Language, Horizon, April 1946"],
+            ['acid test',"from time to time one can even, if one jeers loudly enough, send some worn-out and useless phrase … into the dustbin where it belongs. - George Orwell, Politics and the English Language, Horizon, April 1946"]
 	],
 	wordsLen = words.length,
 	idx;
@@ -166,7 +248,7 @@ javascript:(function () {
 			} else {
 				term = element.firstChild.nodeValue.toLowerCase();
 				for (idx = 0; idx < wordsLen; idx++) {
-					if (term.match(new RegExp(words[idx][0])) && words[idx][1]) {
+						if (term.match(new RegExp(words[idx][0])) && words[idx][1]) {
 						// clicks give focus so use it for capturing both events
 						// focus is retained by elements when scrolling clears their popup so use clicks as backup
 						if (e.type === 'click') {
@@ -231,9 +313,15 @@ javascript:(function () {
     document.getElementsByTagName("head")[0].appendChild(css);
 
 	for (idx = 0; idx < wordsLen; idx++) { // for each word
-		var pattern = '\\b' + words[idx][0].replace(/([.*+?^=!:${}()|[\]\/\\])/g, "\\$1");
-        if (pattern.slice(-1) != '.') {
-            pattern = pattern + '\\b';
+		words[idx][0] = words[idx][0].replace(/([.*+?^=!:${}()|[\]\/\\])/g, "\\$1");
+		var pattern = '\\b' + words[idx][0];
+		if (pattern.slice(-6) == '\\.\\.\\.') { // don't include end word boundary check if word ended with '...'
+			pattern = pattern.slice(0, -6);
+		    words[idx][0] = words[idx][0].slice(0, -6);
+		} else {
+        	if (pattern.slice(-1) != '.') {
+            	pattern = pattern + '\\b';
+        	}
         }
         var regex = new RegExp('(' + pattern + ')', 'ig');
     

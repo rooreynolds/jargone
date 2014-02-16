@@ -18,3 +18,8 @@ To add to the jargon list:
  - the resulting new `jargone.js` can then be committed to GitHub
  
  
+##Other tools
+
+There are some other tools and services you might find useful. 
+
+ - [Hemingway](http://www.hemingwayapp.com) highlights sentences that are hard to read, complex sentences, use of the passive voice, etc.

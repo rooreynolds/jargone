@@ -1,6 +1,3 @@
-'CAAs',"(Local Government Association banned words, 2007)"
-'LAAs',"(Local Government Association banned words, 2007)"
-'MAAs',"(Local Government Association banned words, 2007)"
 'a depressive',"a person with / someone who has depression - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
 'a diabetic',"a person with / someone who has diabetes - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
 'a number of'
@@ -26,18 +23,16 @@
 'advancing',"www.gov.uk/design-principles/style-guide"
 'advantageous'
 'adversely impact'
-'advise'
 'advocate',"(Local Government Association banned words, 2009)"
 'aforementioned'
 'against the grain',"Cliches, Keith Waterhouse, On Newspaper Style"
 'agenda', "Unless it's for a meeting - www.gov.uk/design-principles/style-guide"
 'aggregate'
-'aircraft'
-'all of'
+'all of', "Why not just 'all'? (Unless followed by a pronoun)"
 'alleviate'
 'allocate'
 'along the lines of'
-'alternatively'
+'alternatively', "Instead? But?"
 'ameliorate', "Bad writers, and especially scientific, political and sociological writers, are nearly always haunted by the notion that Latin or Greek words are grander than Saxon ones. - George Orwell, Politics and the English Language, Horizon, April 1946"
 'an epileptic',"a person with / someone who has epilepsy - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
 'anticipate'
@@ -53,7 +48,7 @@
 'ascertain'
 'assailant',"attacker, not assailant - Jargon, Keith Waterhouse, On Newspaper Style"
 'assist', "Consider 'help' - www.gov.uk/design-principles/style-guide"
-'assistance'
+'assistance', "Consder 'help' - www.gov.uk/design-principles/style-guide"
 'assisted', "Consider 'helped' - www.gov.uk/design-principles/style-guide"
 'assisting', "Consider 'helping' - www.gov.uk/design-principles/style-guide"
 'at this time'
@@ -88,6 +83,7 @@
 'by dint of',"George Orwell, Politics and the English Language, Horizon, April 1946"
 'by examination',"Why not 'by examining'?"
 'by virtue of'
+'CAAs',"(Local Government Association banned words, 2007)"
 'can do culture',"(Local Government Association banned words, 2007)"
 'can-do culture',"(Local Government Association banned words, 2007)"
 'capabilities',"(Local Government Association banned words, 2009)"
@@ -187,13 +183,13 @@
 'eliminate'
 'elucidate'
 'embedded',"(Local Government Association banned words, 2009)"
-'employ'
+'employ', "Consdider: use"
 'empower',"www.gov.uk/design-principles/style-guide"
 'empowerment',"(Local Government Association banned words, 2007)"
 'enabler',"(Local Government Association banned words, 2009)"
 'end user',"Jargon, Keith Waterhouse, On Newspaper Style"
 'end-user',"Jargon, Keith Waterhouse, On Newspaper Style"
-'endeavor'
+'endeavor', "Consider: try"
 'engagement',"(Local Government Association banned words, 2007)"
 'engaging users',"(Local Government Association banned words, 2007)"
 'enhance',"(Local Government Association banned words, 2007)"
@@ -316,6 +312,7 @@
 'joined-up',"(Local Government Association banned words, 2007)"
 'joint working',"(Local Government Association banned words, 2007)"
 'key', "Unless it unlocks something. A subject/thing isn't 'key' – it's probably 'important' - www.gov.uk/design-principles/style-guide"
+'LAAs',"(Local Government Association banned words, 2007)"
 'land', "Don't use 'land' as a verb unless you are talking about aircraft - www.gov.uk/design-principles/style-guide"
 'landed', "Don't use 'land' as a verb unless you are talking about aircraft - www.gov.uk/design-principles/style-guide"
 'landing', "Don't use 'land' as a verb unless you are talking about aircraft - www.gov.uk/design-principles/style-guide"
@@ -337,6 +334,7 @@
 'localities',"(Local Government Association banned words, 2007)"
 'low hanging fruit'
 'lowlights',"(Local Government Association banned words, 2009)"
+'MAAs',"(Local Government Association banned words, 2007)"
 'magnitude'
 'mainstreaming',"(Local Government Association banned words, 2009)"
 'make itself felt',"Verbal false limbs. These save the trouble of picking out appropriate verbs and nouns, and at the same time pad each sentence with extra syllables which give it an appearance of symmetry. - George Orwell, Politics and the English Language, Horizon, April 1946"
@@ -375,7 +373,7 @@
 'not certain'
 'not many'
 'not often'
-'not un',"banal statements are given an appearance of profundity by means of the not un- formation. … One can cure oneself of the not un-formation by memorising this sentence: A not unblock dog was chasing a not unsmall rabbit across a not ungreen field. - George Orwell, Politics and the English Language, Horizon, April 1946"
+'not un',"banal statements are given an appearance of profundity by means of the not un- formation. ... One can cure oneself of the not un-formation by memorising this sentence: A not unblock dog was chasing a not unsmall rabbit across a not ungreen field. - George Orwell, Politics and the English Language, Horizon, April 1946"
 'notwithstanding'
 'null and void'
 'numerous'
@@ -406,6 +404,7 @@
 'partnership working',"(Local Government Association banned words, 2009)"
 'partnerships',"(Local Government Association banned words, 2007)"
 'pass away'
+'passed away'
 'pathfinder',"(Local Government Association banned words, 2007)"
 'peer challenge',"(Local Government Association banned words, 2007)"
 'performance network',"(Local Government Association banned words, 2007)"
@@ -475,7 +474,7 @@
 'reside'
 'residence'
 'resource allocation',"(Local Government Association banned words, 2007)"
-'retain'
+'retain', "Condider: keep"
 'retarded',"with a learning disability (singular) with learning disabilities (plural) - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
 'revenue streams',"(Local Government Association banned words, 2007)"
 'ride roughshod over',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"
@@ -609,6 +608,8 @@
 'value-added',"(Local Government Association banned words, 2007)"
 'various different'
 'very'
+'very different'
+'very many'
 'vision',"(Local Government Association banned words, 2007)"
 'visionary',"(Local Government Association banned words, 2007)"
 'waiting game',"Cliches, Keith Waterhouse, On Newspaper Style"

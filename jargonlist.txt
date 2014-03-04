@@ -16,7 +16,7 @@
 'across-the-piece',"(Local Government Association banned words, 2009)"
 'actioned'
 'actively contemplating',"Journalese, Keith Waterhouse, On Newspaper Style"
-'additional'
+'additional',"extra, more"
 'adjacent to'
 'adjustment'
 'admissible'
@@ -43,7 +43,7 @@
 'area focused',"(Local Government Association banned words, 2009)"
 'as a means of'
 'as of yet'
-'as to'
+'as to',"about, on"
 'as yet'
 'ascertain'
 'assailant',"attacker, not assailant - Jargon, Keith Waterhouse, On Newspaper Style"
@@ -217,7 +217,7 @@
 'faq', "Instead, improve the original communication piece so that questions are asked *in*frequently. See www.gov.uk/design-principles/style-guide#faqs"
 'fast track',"(Local Government Association banned words, 2007)"
 'fast-track',"(Local Government Association banned words, 2007)"
-'feasible'
+'feasible',"workable"
 'feathers really flew',"Trade cliches, Keith Waterhouse, On Newspaper Style"
 'finalize'
 'first and foremost'
@@ -258,7 +258,7 @@
 'honest truth'
 'horizon scanning',"(Local Government Association banned words, 2009)"
 'hotbed',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"
-'however'
+'however',"but, yet"
 'hurdle',"difficulty? - Tabloidese, Keith Waterhouse, On Newspaper Style"
 'if and when'
 'impact', "Don't use it as a verb - www.gov.uk/design-principles/style-guide"
@@ -547,7 +547,7 @@
 'substantial'
 'successfully complete'
 'such as', "Consider 'like' - www.gov.uk/design-principles/style-guide"
-'sufficient'
+'sufficient',"enough"
 'sustainable',"(Local Government Association banned words, 2007)"
 'swan song',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"
 'sweet smell of success',"Trade cliches, Keith Waterhouse, On Newspaper Style"
@@ -570,7 +570,7 @@
 'the handicapped',"disabled (people) - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
 'the month of'
 'thematic',"(Local Government Association banned words, 2009)"
-'therefore'
+'therefore',"so, thus"
 'thinking outside of the box',"(Local Government Association banned words, 2009)"
 'third sector',"(Local Government Association banned words, 2007)"
 'time period'

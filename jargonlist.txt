@@ -13,6 +13,7 @@
 'acid test',"from time to time one can even, if one jeers loudly enough, send some worn-out and useless phrase … into the dustbin where it belongs. - George Orwell, Politics and the English Language, Horizon, April 1946"
 'acquiesce'
 'acquire'
+'across the piece',"Throughout, everywhere, look at all options, consider everything (Local Government Association banned words, 2010)"
 'across-the-piece',"(Local Government Association banned words, 2009)"
 'actioned'
 'actively contemplating',"Journalese, Keith Waterhouse, On Newspaper Style"
@@ -26,31 +27,36 @@
 'advocate',"(Local Government Association banned words, 2009)"
 'aforementioned'
 'against the grain',"Cliches, Keith Waterhouse, On Newspaper Style"
-'agenda', "Unless it's for a meeting - www.gov.uk/design-principles/style-guide"
+'agencies',"(Local Government Association banned words, 2010)"
+'agenda',"Unless it's for a meeting - www.gov.uk/design-principles/style-guide"
 'aggregate'
-'all of', "Why not just 'all'? (Unless followed by a pronoun)"
+'all of',"Why not just 'all'? (Unless followed by a pronoun)"
 'alleviate'
 'allocate'
 'along the lines of'
-'alternatively', "Instead? But?"
-'ameliorate', "Bad writers, and especially scientific, political and sociological writers, are nearly always haunted by the notion that Latin or Greek words are grander than Saxon ones. - George Orwell, Politics and the English Language, Horizon, April 1946"
+'alternatively',"Instead? But?"
+'ambassador',"Unless you are talking about an actual ambassador (Local Government Association banned words, 2010)"
+'ameliorate',"Bad writers, and especially scientific, political and sociological writers, are nearly always haunted by the notion that Latin or Greek words are grander than Saxon ones. - George Orwell, Politics and the English Language, Horizon, April 1946"
 'an epileptic',"a person with / someone who has epilepsy - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
 'anticipate'
 'apparent'
+'apportionment',"Divide among, split, share (Local Government Association banned words, 2010)"
 'appreciable'
-'approximately', "Consider 'about' - www.gov.uk/design-principles/style-guide"
+'approximately',"Consider 'about' - www.gov.uk/design-principles/style-guide"
 'area based',"(Local Government Association banned words, 2009)"
+'area-based',"(Local Government Association banned words, 2010)"
 'area focused',"(Local Government Association banned words, 2009)"
+'area-focused',"(Local Government Association banned words, 2010)"
 'as a means of'
 'as of yet'
 'as to',"about, on"
 'as yet'
 'ascertain'
 'assailant',"attacker, not assailant - Jargon, Keith Waterhouse, On Newspaper Style"
-'assist', "Consider 'help' - www.gov.uk/design-principles/style-guide"
-'assistance', "Consder 'help' - www.gov.uk/design-principles/style-guide"
-'assisted', "Consider 'helped' - www.gov.uk/design-principles/style-guide"
-'assisting', "Consider 'helping' - www.gov.uk/design-principles/style-guide"
+'assist',"Consider 'help' - www.gov.uk/design-principles/style-guide"
+'assistance',"Consder 'help' - www.gov.uk/design-principles/style-guide"
+'assisted',"Consider 'helped' - www.gov.uk/design-principles/style-guide"
+'assisting',"Consider 'helping' - www.gov.uk/design-principles/style-guide"
 'at this time'
 'attain'
 'attributable to'
@@ -63,7 +69,7 @@
 'because of the fact that'
 'beggars belief',"Trade cliches, Keith Waterhouse, On Newspaper Style"
 'beggars description',"Trade cliches, Keith Waterhouse, On Newspaper Style"
-'being done', "Use the active voice. 'We are doing this'"
+'being done',"Use the active voice. 'We are doing this'"
 'belated'
 'benchmarking',"(Local Government Association banned words, 2009)"
 'benefit from'
@@ -78,6 +84,7 @@
 'blue sky thinking',"(Local Government Association banned words, 2009)"
 'bonanza',"Trade cliches, Keith Waterhouse, On Newspaper Style"
 'bottom-up',"(Local Government Association banned words, 2007)"
+'brain dump',"Transfer information (Local Government Association banned words, 2010)"
 'brought to a satisfactory conclusion',"George Orwell, Politics and the English Language, Horizon, April 1946"
 'burning issue',"Trade cliches, Keith Waterhouse, On Newspaper Style"
 'by dint of',"George Orwell, Politics and the English Language, Horizon, April 1946"
@@ -88,23 +95,31 @@
 'can-do culture',"(Local Government Association banned words, 2007)"
 'capabilities',"(Local Government Association banned words, 2009)"
 'capacity',"(Local Government Association banned words, 2007)"
+'capacity building',"(Local Government Association banned words, 2010)"
+'capturing',"Record, take note of, store (Local Government Association banned words, 2010)"
 'cascading',"(Local Government Association banned words, 2007)"
+'cashable',"Can be changed into cash (Local Government Association banned words, 2010)"
+'catalysts',"(Local Government Association banned words, 2010)"
 'categorical',"Words like … categorical … are used to dress up simple statements and give an air of scientific impartiality to biased judgments. - George Orwell, Politics and the English Language, Horizon, April 1946"
+'cautiously welcome',"(Local Government Association banned words, 2010)"
 'cautiously welcome...',"(Local Government Association banned words, 2007)"
 'cease'
+'centricity',"(Local Government Association banned words, 2010)"
 'challenge',"(Local Government Association banned words, 2009)"
 'champion',"(Local Government Association banned words, 2007)"
 'citizen empowerment',"(Local Government Association banned words, 2007)"
+'citizen touchpoints',"(Local Government Association banned words, 2010)"
 'clampdown',"Trade cliches, Keith Waterhouse, On Newspaper Style"
 'clash',"disagreement? - Tabloidese, Keith Waterhouse, On Newspaper Style"
 'client',"(Local Government Association banned words, 2009)"
+'clienting',"(Local Government Association banned words, 2010)"
 'close proximity'
 'cohesive communities',"(Local Government Association banned words, 2009)"
 'cohesiveness',"(Local Government Association banned words, 2009)"
 'cold comfort',"Cliches, Keith Waterhouse, On Newspaper Style"
-'collaborate', "Use 'working with' - www.gov.uk/design-principles/style-guide"
-'collaborated', "Use 'worked with' - www.gov.uk/design-principles/style-guide"
-'collaborating', "Use 'working with' - www.gov.uk/design-principles/style-guide"
+'collaborate',"Use 'working with' - www.gov.uk/design-principles/style-guide"
+'collaborated',"Use 'worked with' - www.gov.uk/design-principles/style-guide"
+'collaborating',"Use 'working with' - www.gov.uk/design-principles/style-guide"
 'collaboration',"(Local Government Association banned words, 2009)"
 'combating',"www.gov.uk/design-principles/style-guide"
 'coming home to roost',"Cliches, Keith Waterhouse, On Newspaper Style"
@@ -115,10 +130,13 @@
 'committing',"We need to be more specific – we’re either doing something or we’re not - www.gov.uk/design-principles/style-guide"
 'community engagement',"(Local Government Association banned words, 2007)"
 'compact',"(Local Government Association banned words, 2009)"
+'compendium',"Collection, set of (Local Government Association banned words, 2010)"
 'comply with'
+'comprehensive area assessment',"(Local Government Association banned words, 2010)"
 'concerning'
 'conditionality',"(Local Government Association banned words, 2007)"
 'confined to a wheelchair',"wheelchair user - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
+'connectedness',"How things are linked or joined (Local Government Association banned words, 2010)"
 'consensual',"(Local Government Association banned words, 2007)"
 'consequently'
 'consolidate'
@@ -136,14 +154,19 @@
 'cripple',"disabled person - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
 'cross-cutting',"(Local Government Association banned words, 2007)"
 'cross-fertilisation',"(Local Government Association banned words, 2009)"
+'cross-sectoral',"(Local Government Association banned words, 2010)"
 'crucial new',"Journalese, Keith Waterhouse, On Newspaper Style"
 'curb growing menaces',"Journalese, Keith Waterhouse, On Newspaper Style"
 'customer',"(Local Government Association banned words, 2007)"
+'customer insight',"(Local Government Association banned words, 2010)"
+'customer journey',"(Local Government Association banned words, 2010)"
 'deaf and dumb',"deaf, user of British sign language, person with a hearing impairment - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
 'deaf mute',"deaf, user of British sign language, person with a hearing impairment - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
 'deaf to our pleas',"Common phrases that may associate impairments with negative things should be avoided, for example 'deaf to our pleas' or 'blind drunk' - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
 'death toll',"Trade cliches, Keith Waterhouse, On Newspaper Style"
-'deliver', "Pizzas, post and services are delivered – not abstract concepts like 'improvements' or 'priorities' - www.gov.uk/design-principles/style-guide"
+'deep dive',"Look in more detail (Local Government Association banned words, 2010)"
+'deliver',"Pizzas, post and services are delivered – not abstract concepts like 'improvements' or 'priorities' - www.gov.uk/design-principles/style-guide"
+'delivery chain',"(Local Government Association banned words, 2010)"
 'democratic legitimacy',"(Local Government Association banned words, 2007)"
 'democratic mandate',"(Local Government Association banned words, 2007)"
 'demonstrate'
@@ -153,12 +176,13 @@
 'deserves serious consideration',"George Orwell, Politics and the English Language, Horizon, April 1946"
 'deserving serious consideration',"George Orwell, Politics and the English Language, Horizon, April 1946"
 'designate'
-'deus ex machine', "Bad writers, and especially scientific, political and sociological writers, are nearly always haunted by the notion that Latin or Greek words are grander than Saxon ones. - George Orwell, Politics and the English Language, Horizon, April 1946"
+'deus ex machine',"Bad writers, and especially scientific, political and sociological writers, are nearly always haunted by the notion that Latin or Greek words are grander than Saxon ones. - George Orwell, Politics and the English Language, Horizon, April 1946"
 'development to be expected',"George Orwell, Politics and the English Language, Horizon, April 1946"
-'dialogue', "We speak to people - www.gov.uk/design-principles/style-guide"
+'dialogue',"We speak to people - www.gov.uk/design-principles/style-guide"
 'direction of travel',"(Local Government Association banned words, 2009)"
+'disbenefits',"Drawbacks (Local Government Association banned words, 2010)"
 'discontinue'
-'discourse', "Discussion"
+'discourse',"Discussion"
 'disincentivise',"www.gov.uk/design-principles/style-guide"
 'disincentivised',"www.gov.uk/design-principles/style-guide"
 'disincentivising',"www.gov.uk/design-principles/style-guide"
@@ -167,35 +191,36 @@
 'double devolution',"(Local Government Association banned words, 2009)"
 'downstream',"(Local Government Association banned words, 2009)"
 'drive forward'
-'drive out', "Unless it is cattle - www.gov.uk/design-principles/style-guide"
+'drive out',"Unless it is cattle - www.gov.uk/design-principles/style-guide"
 'drive',"You can only drive vehicles; not schemes or people - www.gov.uk/design-principles/style-guide"
 'driven forward'
-'driven out', "Unless it is cattle - www.gov.uk/design-principles/style-guide"
+'driven out',"Unless it is cattle - www.gov.uk/design-principles/style-guide"
 'driving forward'
-'driving out', "Unless it is cattle - www.gov.uk/design-principles/style-guide"
+'driving out',"Unless it is cattle - www.gov.uk/design-principles/style-guide"
 'dropped a clanger',"Trade cliches, Keith Waterhouse, On Newspaper Style"
 'due to the fact that'
 'dwarf',"someone with restricted growth - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
 'each and every'
 'early win',"(Local Government Association banned words, 2007)"
+'econometric',"(Local Government Association banned words, 2010)"
 'economical'
 'edge-fit',"(Local Government Association banned words, 2009)"
 'eliminate'
 'elucidate'
 'embedded',"(Local Government Association banned words, 2009)"
-'employ', "Consdider: use"
+'employ',"Consdider: use"
 'empower',"www.gov.uk/design-principles/style-guide"
 'empowerment',"(Local Government Association banned words, 2007)"
 'enabler',"(Local Government Association banned words, 2009)"
 'end user',"Jargon, Keith Waterhouse, On Newspaper Style"
 'end-user',"Jargon, Keith Waterhouse, On Newspaper Style"
-'endeavor', "Consider: try"
+'endeavor',"Consider: try"
 'engagement',"(Local Government Association banned words, 2007)"
 'engaging users',"(Local Government Association banned words, 2007)"
 'enhance',"(Local Government Association banned words, 2007)"
 'enumerate'
-'epic', "Adjectives like .. epic … are used to dignify the sordid processes of international politics. - George Orwell, Politics and the English Language, Horizon, April 1946"
-'epoch-making', "Adjectives like epoch-making … are used to dignify the sordid processes of international politics. - George Orwell, Politics and the English Language, Horizon, April 1946"
+'epic',"Adjectives like .. epic … are used to dignify the sordid processes of international politics. - George Orwell, Politics and the English Language, Horizon, April 1946"
+'epoch-making',"Adjectives like epoch-making … are used to dignify the sordid processes of international politics. - George Orwell, Politics and the English Language, Horizon, April 1946"
 'equitable'
 'equivalent'
 'evaluate'
@@ -205,16 +230,19 @@
 'exemplar',"(Local Government Association banned words, 2009)"
 'exhibit',"Words like … exhibit … are used to dress up simple statements and give an air of scientific impartiality to biased judgments. - George Orwell, Politics and the English Language, Horizon, April 1946"
 'expected in the near future',"George Orwell, Politics and the English Language, Horizon, April 1946"
-'expedite', "Bad writers, and especially scientific, political and sociological writers, are nearly always haunted by the notion that Latin or Greek words are grander than Saxon ones. - George Orwell, Politics and the English Language, Horizon, April 1946"
+'expedite',"Bad writers, and especially scientific, political and sociological writers, are nearly always haunted by the notion that Latin or Greek words are grander than Saxon ones. - George Orwell, Politics and the English Language, Horizon, April 1946"
 'expend'
 'expiration'
 'explore every avenue',"George Orwell, Politics and the English Language, Horizon, April 1946"
+'extensible',"Can be extended (Local Government Association banned words, 2010)"
 'external challenge',"(Local Government Association banned words, 2007)"
-'facilitate', "Instead, say something specific about how you are helping - www.gov.uk/design-principles/style-guide"
-'facilitating', "Instead, say something specific about how you are helping - www.gov.uk/design-principles/style-guide"
+'externalities',"(Local Government Association banned words, 2010)"
+'face time',"We need to meet, have a meeting, meet face to face (Local Government Association banned words, 2010)"
+'facilitate',"Instead, say something specific about how you are helping - www.gov.uk/design-principles/style-guide"
+'facilitating',"Instead, say something specific about how you are helping - www.gov.uk/design-principles/style-guide"
 'facing broadsides',"Journalese, Keith Waterhouse, On Newspaper Style"
 'factual evidence'
-'faq', "Instead, improve the original communication piece so that questions are asked *in*frequently. See www.gov.uk/design-principles/style-guide#faqs"
+'faq',"Instead, improve the original communication piece so that questions are asked *in*frequently. See www.gov.uk/design-principles/style-guide#faqs"
 'fast track',"(Local Government Association banned words, 2007)"
 'fast-track',"(Local Government Association banned words, 2007)"
 'feasible',"workable"
@@ -223,12 +251,12 @@
 'first and foremost'
 'flex',"(Local Government Association banned words, 2009)"
 'flexibilities and freedoms',"(Local Government Association banned words, 2009)"
-'focusing', "Unless in the photographic sense - www.gov.uk/design-principles/style-guide"
+'focusing',"Unless in the photographic sense - www.gov.uk/design-principles/style-guide"
 'for the purpose of'
 'forfeit'
 'formulate'
-'foster', "Unless it is children - www.gov.uk/design-principles/style-guide"
-'fostering', "Unless it is children - www.gov.uk/design-principles/style-guide"
+'foster',"Unless it is children - www.gov.uk/design-principles/style-guide"
+'fostering',"Unless it is children - www.gov.uk/design-principles/style-guide"
 'framework',"(Local Government Association banned words, 2007)"
 'free peoples of the world',"When one watches some tired hack on the platform mechanically repeating the familiar phrases … one often has a curious feeling that one is not watching a live human being but some kind of dummy… - George Orwell, Politics and the English Language, Horizon, April 1946"
 'front door'
@@ -236,6 +264,9 @@
 'functionality',"(Local Government Association banned words, 2009)"
 'fundamental restructuring',"Journalese, Keith Waterhouse, On Newspaper Style"
 'funding streams',"(Local Government Association banned words, 2009)"
+'future of place',"(Local Government Association banned words, 2010)"
+'future proofing',"(Local Government Association banned words, 2010)"
+'future-proofing',"(Local Government Association banned words, 2010)"
 'game plan',"Jargon, Keith Waterhouse, On Newspaper Style"
 'game-plan',"Jargon, Keith Waterhouse, On Newspaper Style"
 'gateway review',"(Local Government Association banned words, 2009)"
@@ -245,24 +276,30 @@
 'given the go ahead',"Journalese, Keith Waterhouse, On Newspaper Style"
 'given the go-ahead',"Journalese, Keith Waterhouse, On Newspaper Style"
 'go forward'
-'going forward', "Use 'in future' - www.gov.uk/design-principles/style-guide"
+'going forward',"Use 'in future' - www.gov.uk/design-principles/style-guide"
+'gold plating',"(Local Government Association banned words, 2010)"
+'goldfish bowl facilitated conversation',"(Local Government Association banned words, 2010)"
 'good practice',"(Local Government Association banned words, 2007)"
 'good-practice',"(Local Government Association banned words, 2007)"
 'governance',"(Local Government Association banned words, 2007)"
 'greatly to be desired',"George Orwell, Politics and the English Language, Horizon, April 1946"
 'grist to the mill',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"
+'guidelines',"(Local Government Association banned words, 2010)"
 'having regard to',"George Orwell, Politics and the English Language, Horizon, April 1946"
 'head on',"Tabloidese, Keith Waterhouse, On Newspaper Style"
 'head-on',"Tabloidese, Keith Waterhouse, On Newspaper Style"
+'headroom for change',"(Local Government Association banned words, 2010)"
+'hereditament',"Property that can be inherited (Local Government Association banned words, 2010)"
 'holistic',"(Local Government Association banned words, 2007)"
+'holistic governance',"(Local Government Association banned words, 2010)"
 'honest truth'
 'horizon scanning',"(Local Government Association banned words, 2009)"
 'hotbed',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"
 'however',"but, yet"
 'hurdle',"difficulty? - Tabloidese, Keith Waterhouse, On Newspaper Style"
 'if and when'
-'impact', "Don't use it as a verb - www.gov.uk/design-principles/style-guide"
-'impacted', "Don't use it as a verb - www.gov.uk/design-principles/style-guide"
+'impact',"Don't use it as a verb - www.gov.uk/design-principles/style-guide"
+'impacted',"Don't use it as a verb - www.gov.uk/design-principles/style-guide"
 'implement'
 'improvement levers',"(Local Government Association banned words, 2007)"
 'in a timely manner',"Superfluous – don’t use it - www.gov.uk/design-principles/style-guide"
@@ -293,12 +330,15 @@
 'indicate'
 'indication'
 'indicators',"(Local Government Association banned words, 2009)"
+'informatics',"(Local Government Association banned words, 2010)"
 'initiate',"www.gov.uk/design-principles/style-guide"
 'initiating',"www.gov.uk/design-principles/style-guide"
 'initiative',"(Local Government Association banned words, 2007)"
 'innovative capacity',"(Local Government Association banned words, 2009)"
 'inspectorates',"(Local Government Association banned words, 2009)"
+'interactivity',"(Local Government Association banned words, 2010)"
 'interdepartmental',"(Local Government Association banned words, 2009)"
+'interdependencies',"(Local Government Association banned words, 2010)"
 'interface',"(Local Government Association banned words, 2009)"
 'iron heel',"When one watches some tired hack on the platform mechanically repeating the familiar phrases … one often has a curious feeling that one is not watching a live human being but some kind of dummy… - George Orwell, Politics and the English Language, Horizon, April 1946"
 'iron resolution',"a metaphor which is technically “dead” (e.g., iron resolution) has in effect reverted to being an ordinary word and can generally be used without loss of vividness. - George Orwell, Politics and the English Language, Horizon, April 1946"
@@ -311,13 +351,17 @@
 'joined up',"(Local Government Association banned words, 2007)"
 'joined-up',"(Local Government Association banned words, 2007)"
 'joint working',"(Local Government Association banned words, 2007)"
-'key', "Unless it unlocks something. A subject/thing isn't 'key' – it's probably 'important' - www.gov.uk/design-principles/style-guide"
+'key',"Unless it unlocks something. A subject/thing isn't 'key' – it's probably 'important' - www.gov.uk/design-principles/style-guide"
+'key asks',"(Local Government Association banned words, 2010)"
+'knowledge bite',"(Local Government Association banned words, 2010)"
+'knowledge hub',"(Local Government Association banned words, 2010)"
 'LAAs',"(Local Government Association banned words, 2007)"
-'land', "Don't use 'land' as a verb unless you are talking about aircraft - www.gov.uk/design-principles/style-guide"
-'landed', "Don't use 'land' as a verb unless you are talking about aircraft - www.gov.uk/design-principles/style-guide"
-'landing', "Don't use 'land' as a verb unless you are talking about aircraft - www.gov.uk/design-principles/style-guide"
+'land',"Don't use 'land' as a verb unless you are talking about aircraft - www.gov.uk/design-principles/style-guide"
+'landed',"Don't use 'land' as a verb unless you are talking about aircraft - www.gov.uk/design-principles/style-guide"
+'landing',"Don't use 'land' as a verb unless you are talking about aircraft - www.gov.uk/design-principles/style-guide"
 'lay the foundations',"George Orwell, Politics and the English Language, Horizon, April 1946"
-'learnings', "Try 'lessons' - www.gov.uk/design-principles/style-guide"
+'learning outcome',"(Local Government Association banned words, 2010)"
+'learnings',"Try 'lessons' - www.gov.uk/design-principles/style-guide"
 'leave much to be desired',"George Orwell, Politics and the English Language, Horizon, April 1946"
 'leave no stone unturned',"George Orwell, Politics and the English Language, Horizon, April 1946"
 'leaves much to be desired',"George Orwell, Politics and the English Language, Horizon, April 1946"
@@ -325,14 +369,19 @@
 'leaving no stone unturned',"George Orwell, Politics and the English Language, Horizon, April 1946"
 'left no stone unturned',"George Orwell, Politics and the English Language, Horizon, April 1946"
 'level playing field',"(Local Government Association banned words, 2007)"
-'leverage', "Unless in the financial or mechanical sense - www.gov.uk/design-principles/style-guide"
-'leveraging', "Unless in the financial sense - www.gov.uk/design-principles/style-guide"
+'lever',"(Local Government Association banned words, 2010)"
+'leverage',"Unless in the financial or mechanical sense - www.gov.uk/design-principles/style-guide"
+'leveraging',"Unless in the financial sense - www.gov.uk/design-principles/style-guide"
 'liaise',"www.gov.uk/design-principles/style-guide"
 'liaising',"www.gov.uk/design-principles/style-guide"
+'lifetime neighbourhood',"(Local Government Association banned words, 2010)"
 'limped into port',"Trade cliches, Keith Waterhouse, On Newspaper Style"
 'living in a dream world',"Cliches, Keith Waterhouse, On Newspaper Style"
+'local area agreements',"(Local Government Association banned words, 2010)"
+'local strategic partnerships',"(Local Government Association banned words, 2010)"
 'localities',"(Local Government Association banned words, 2007)"
 'low hanging fruit'
+'low-hanging fruit',"(Local Government Association banned words, 2010)"
 'lowlights',"(Local Government Association banned words, 2009)"
 'MAAs',"(Local Government Association banned words, 2007)"
 'magnitude'
@@ -343,6 +392,7 @@
 'meaningful consultation',"(Local Government Association banned words, 2007)"
 'meaningful dialogue',"(Local Government Association banned words, 2007)"
 'meaningful dialogue',"(Local Government Association banned words, 2009)"
+'meaningful reusable interactivity',"(Local Government Association banned words, 2010)"
 'mechanisms',"(Local Government Association banned words, 2009)"
 'melting pot',"from time to time one can even, if one jeers loudly enough, send some worn-out and useless phrase … into the dustbin where it belongs. - George Orwell, Politics and the English Language, Horizon, April 1946"
 'mental patient',"person with a mental health condition - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
@@ -359,7 +409,9 @@
 'moving forward'
 'moving toward'
 'multi-agency',"(Local Government Association banned words, 2007)"
+'multi-area agreements',"(Local Government Association banned words, 2010)"
 'multidisciplinary',"(Local Government Association banned words, 2007)"
+'multi-disciplinary',"(Local Government Association banned words, 2010)"
 'multiple'
 'municipalities',"(Local Government Association banned words, 2009)"
 'necessitate'
@@ -406,6 +458,7 @@
 'pass away'
 'passed away'
 'pathfinder',"(Local Government Association banned words, 2007)"
+'peer',"Equal, or explain how they are the same (Local Government Association banned words, 2010)"
 'peer challenge',"(Local Government Association banned words, 2007)"
 'performance network',"(Local Government Association banned words, 2007)"
 'pertaining to'
@@ -431,24 +484,29 @@
 'preventative services',"(Local Government Association banned words, 2007)"
 'previously'
 'prior to'
+'prioritisation',"Rephrase and use prioritise or priority (Local Government Association banned words, 2010)"
 'prioritization',"(Local Government Association banned words, 2009)"
 'prioritize'
 'priority',"(Local Government Association banned words, 2007)"
 'proactive',"(Local Government Association banned words, 2009)"
 'process driven',"(Local Government Association banned words, 2007)"
 'procure',"(Local Government Association banned words, 2009)"
+'procurement',"Rephrase and use buy or get (Local Government Association banned words, 2010)"
 'proficiency'
 'progress',"As a verb – what are you actually doing? - www.gov.uk/design-principles/style-guide"
 'progressed',"As a verb – what are you actually doing? - www.gov.uk/design-principles/style-guide"
-'promote', "Unless you are talking about an ad campaign or similar - www.gov.uk/design-principles/style-guide"
-'promoted', "Unless you are talking about an ad campaign or similar - www.gov.uk/design-principles/style-guide"
-'promoting', "Unless you are talking about an ad campaign or similar - www.gov.uk/design-principles/style-guide"
+'promote',"Unless you are talking about an ad campaign or similar - www.gov.uk/design-principles/style-guide"
+'promoted',"Unless you are talking about an ad campaign or similar - www.gov.uk/design-principles/style-guide"
+'promoting',"Unless you are talking about an ad campaign or similar - www.gov.uk/design-principles/style-guide"
 'promulgate',"(Local Government Association banned words, 2009)"
 'proportionality',"(Local Government Association banned words, 2009)"
 'protocol',"(Local Government Association banned words, 2009)"
 'provided that'
 'provider',"(Local Government Association banned words, 2009)"
-'purchase', "Consider 'buy' - www.gov.uk/design-principles/style-guide"
+'provider vehicles',"(Local Government Association banned words, 2010)"
+'public sphere',"(Local Government Association banned words, 2010)"
+'pump priming',"Start economic activity with investment (Local Government Association banned words, 2010)"
+'purchase',"Consider 'buy' - www.gov.uk/design-principles/style-guide"
 'put simply'
 'quantum',"(Local Government Association banned words, 2009)"
 'quick hit',"(Local Government Association banned words, 2007)"
@@ -456,9 +514,10 @@
 'radical change',"Journalese, Keith Waterhouse, On Newspaper Style"
 'radical transformation',"George Orwell, Politics and the English Language, Horizon, April 1946"
 'rationalisation',"(Local Government Association banned words, 2009)"
+'reablement',"Help people look after themselves following illness or injury (Local Government Association banned words, 2010)"
 'reach epidemic proportions',"Journalese, Keith Waterhouse, On Newspaper Style"
-'reach out to', "Consider 'contact'"
-'reached out to', "Consider 'contacted'"
+'reach out to',"Consider 'contact'"
+'reached out to',"Consider 'contacted'"
 'readily apparent'
 'rebaselining',"(Local Government Association banned words, 2009)"
 'reconfigured',"(Local Government Association banned words, 2009)"
@@ -474,9 +533,11 @@
 'reside'
 'residence'
 'resource allocation',"(Local Government Association banned words, 2007)"
-'retain', "Condider: keep"
+'resource efficient',"(Local Government Association banned words, 2010)"
+'retain',"Condider: keep"
 'retarded',"with a learning disability (singular) with learning disabilities (plural) - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
 'revenue streams',"(Local Government Association banned words, 2007)"
+'re-weaving',"(Local Government Association banned words, 2010)"
 'ride roughshod over',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"
 'ride roughshod',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"
 'riding roughshod',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"
@@ -490,11 +551,13 @@
 'ringing the changes',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"
 'risk based',"(Local Government Association banned words, 2007)"
 'robust','www.gov.uk/design-principles/style-guide'
+'safeguarding',"(Local Government Association banned words, 2010)"
 'satisfy'
 'scaled-back',"(Local Government Association banned words, 2007)"
 'scoping',"(Local Government Association banned words, 2007)"
 'sector wise',"(Local Government Association banned words, 2009)"
 'seedbed',"(Local Government Association banned words, 2007)"
+'self-aggrandisement',"(Local Government Association banned words, 2010)"
 'self-aggrandizement',"(Local Government Association banned words, 2009)"
 'serve no good purpose',"George Orwell, Politics and the English Language, Horizon, April 1946"
 'service users',"(Local Government Association banned words, 2007)"
@@ -528,17 +591,18 @@
 'stakeholder',"(Local Government Association banned words, 2007)"
 'stand shoulder to shoulder',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"
 'standing shoulder to shoulder',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"
-'status quo', "Bad writers, and especially scientific, political and sociological writers, are nearly always haunted by the notion that Latin or Greek words are grander than Saxon ones. - George Orwell, Politics and the English Language, Horizon, April 1946"
+'status quo',"Bad writers, and especially scientific, political and sociological writers, are nearly always haunted by the notion that Latin or Greek words are grander than Saxon ones. - George Orwell, Politics and the English Language, Horizon, April 1946"
 'step change',"(Local Government Association banned words, 2007)"
 'stood shoulder to shoulder',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"
 'strategic',"(Local Government Association banned words, 2007)"
+'strategic priorities',"(Local Government Association banned words, 2010)"
 'strategize'
 'streamline',"www.gov.uk/design-principles/style-guide"
 'streamlined',"(Local Government Association banned words, 2007)"
 'streamlined',"www.gov.uk/design-principles/style-guide"
 'streamlining',"www.gov.uk/design-principles/style-guide"
-'strengthened', "Unless it is strengthening bridges or other structures - www.gov.uk/design-principles/style-guide"
-'strengthening', "Unless it is strengthening bridges or other structures - www.gov.uk/design-principles/style-guide"
+'strengthened',"Unless it is strengthening bridges or other structures - www.gov.uk/design-principles/style-guide"
+'strengthening',"Unless it is strengthening bridges or other structures - www.gov.uk/design-principles/style-guide"
 'sub-regional',"(Local Government Association banned words, 2009)"
 'subnormal',"with a learning disability (singular) with learning disabilities (plural) - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
 'subsequent'
@@ -546,18 +610,19 @@
 'subsidiary',"(Local Government Association banned words, 2007)"
 'substantial'
 'successfully complete'
-'such as', "Consider 'like' - www.gov.uk/design-principles/style-guide"
+'such as',"Consider 'like' - www.gov.uk/design-principles/style-guide"
 'sufficient',"enough"
 'sustainable',"(Local Government Association banned words, 2007)"
+'sustainable communities',"(Local Government Association banned words, 2010)"
 'swan song',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"
 'sweet smell of success',"Trade cliches, Keith Waterhouse, On Newspaper Style"
 'symposium',"(Local Government Association banned words, 2007)"
 'synergies',"(Local Government Association banned words, 2007)"
 'synergy'
 'systematics',"(Local Government Association banned words, 2009)"
-'tackle', "Unless it is rugby, football, some other sport - www.gov.uk/design-principles/style-guide"
-'tackled', "Unless it is rugby, football, some other sport - www.gov.uk/design-principles/style-guide"
-'tackling', "Unless it is rugby, football, some other sport - www.gov.uk/design-principles/style-guide"
+'tackle',"Unless it is rugby, football, some other sport - www.gov.uk/design-principles/style-guide"
+'tackled',"Unless it is rugby, football, some other sport - www.gov.uk/design-principles/style-guide"
+'tackling',"Unless it is rugby, football, some other sport - www.gov.uk/design-principles/style-guide"
 'takes the biscuit',"Cliches, Keith Waterhouse, On Newspaper Style"
 'tasked'
 'taxonomy',"(Local Government Association banned words, 2009)"
@@ -572,9 +637,12 @@
 'thematic',"(Local Government Association banned words, 2009)"
 'therefore',"so, thus"
 'thinking outside of the box',"(Local Government Association banned words, 2009)"
+'thinking outside the box',"Original or creative (Local Government Association banned words, 2010)"
 'third sector',"(Local Government Association banned words, 2007)"
+'thought shower',"(Local Government Association banned words, 2010)"
 'time period'
 'toe the line',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"
+'tonality',"Tone, style, manner, meaning (Local Government Association banned words, 2010)"
 'took advantage of'
 'toolkit',"(Local Government Association banned words, 2009)"
 'top down',"(Local Government Association banned words, 2007)"
@@ -584,24 +652,27 @@
 'trajectory',"(Local Government Association banned words, 2009)"
 'tranche',"(Local Government Association banned words, 2009)"
 'transactional',"(Local Government Association banned words, 2009)"
-'transform', "What are you actually doing to change it? - www.gov.uk/design-principles/style-guide"
+'transform',"What are you actually doing to change it? - www.gov.uk/design-principles/style-guide"
 'transformational',"(Local Government Association banned words, 2007)"
-'transformed', "What actualled happened to change it? - www.gov.uk/design-principles/style-guide"
-'transforming', "What are you actually doing to change it? - www.gov.uk/design-principles/style-guide"
+'transformed',"What actualled happened to change it? - www.gov.uk/design-principles/style-guide"
+'transforming',"What are you actually doing to change it? - www.gov.uk/design-principles/style-guide"
 'transmit'
 'transparency',"(Local Government Association banned words, 2007)"
 'transpire'
-'triumphant', "Adjectives like .. triumphant … are used to dignify the sordid processes of international politics. - George Orwell, Politics and the English Language, Horizon, April 1946"
+'trialogue',"Meeting, a meeting between 3 people or groups (Local Government Association banned words, 2010)"
+'triumphant',"Adjectives like .. triumphant … are used to dignify the sordid processes of international politics. - George Orwell, Politics and the English Language, Horizon, April 1946"
 'troubled waters',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"
-'unforgettable', "Adjectives like .. unforgettable … are used to dignify the sordid processes of international politics. - George Orwell, Politics and the English Language, Horizon, April 1946"
+'under-capacitated',"Not capable enough (Local Government Association banned words, 2010)"
+'unforgettable',"Adjectives like .. unforgettable … are used to dignify the sordid processes of international politics. - George Orwell, Politics and the English Language, Horizon, April 1946"
 'unprecedented move',"Journalese, Keith Waterhouse, On Newspaper Style"
 'until such time as'
+'uplifting',"(Local Government Association banned words, 2010)"
 'upstream',"(Local Government Association banned words, 2009)"
 'upward trend',"(Local Government Association banned words, 2009)"
 'user friendly',"Jargon, Keith Waterhouse, On Newspaper Style"
-'utilise', "Use - www.gov.uk/design-principles/style-guide"
-'utilised', "Used - www.gov.uk/design-principles/style-guide"
-'utilising', "Using - www.gov.uk/design-principles/style-guide"
+'utilise',"Use - www.gov.uk/design-principles/style-guide"
+'utilised',"Used - www.gov.uk/design-principles/style-guide"
+'utilising',"Using - www.gov.uk/design-principles/style-guide"
 'utilization'
 'utilize',"Words like … utilize … are used to dress up simple statements and give an air of scientific impartiality to biased judgments. - George Orwell, Politics and the English Language, Horizon, April 1946"
 'validate'
@@ -613,14 +684,19 @@
 'vision',"(Local Government Association banned words, 2007)"
 'visionary',"(Local Government Association banned words, 2007)"
 'waiting game',"Cliches, Keith Waterhouse, On Newspaper Style"
+'wash-up session',"(Local Government Association banned words, 2010)"
 'webinar'
 'wellbeing',"(Local Government Association banned words, 2009)"
+'wellderly',"(Local Government Association banned words, 2010)"
 'wheelchair-bound',"wheelchair user - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
 'whether or not'
+'who blinks first',"(Local Government Association banned words, 2010)"
+'wicked issues',"(Local Government Association banned words, 2010)"
 'with respect to',"George Orwell, Politics and the English Language, Horizon, April 1946"
 'with the exception of'
 'witnessed'
 'worklessness',"(Local Government Association banned words, 2009)"
+'world cafe',"(Local Government Association banned words, 2010)"
 'writing is on the wall',"Trade cliches, Keith Waterhouse, On Newspaper Style"
 'writing on the wall',"Trade cliches, Keith Waterhouse, On Newspaper Style"
 'you may be able to',"Do not let caveats dictate unwieldy grammar – eg say 'You can' rather than 'You may be able to' - www.gov.uk/design-principles/style-guide - odi.dwp.gov.uk/inclusive-communications/representation/language.php"

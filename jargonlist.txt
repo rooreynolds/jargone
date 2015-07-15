@@ -460,7 +460,8 @@
 'pathfinder',"(Local Government Association banned words, 2007)"
 'peer',"Equal, or explain how they are the same (Local Government Association banned words, 2010)"
 'peer challenge',"(Local Government Association banned words, 2007)"
-'performance network',"(Local Government Association banned words, 2007)"
+'performance network',"(Local Government Association banned words, 2007
+'perspective',"(James Abley banned words, 2015)" 
 'pertaining to'
 'place shaping',"(Local Government Association banned words, 2007)"
 'play a leading part',"Verbal false limbs. These save the trouble of picking out appropriate verbs and nouns, and at the same time pad each sentence with extra syllables which give it an appearance of symmetry. - George Orwell, Politics and the English Language, Horizon, April 1946"

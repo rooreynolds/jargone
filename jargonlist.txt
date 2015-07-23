@@ -368,6 +368,7 @@
 'leaving no stone unturned',"George Orwell, Politics and the English Language, Horizon, April 1946"
 'leaving no stone unturned',"George Orwell, Politics and the English Language, Horizon, April 1946"
 'left no stone unturned',"George Orwell, Politics and the English Language, Horizon, April 1946"
+'lens',"Perhaps you mean perspective? https://twitter.com/rooreynolds/status/621354724076429312"
 'level playing field',"(Local Government Association banned words, 2007)"
 'lever',"(Local Government Association banned words, 2010)"
 'leverage',"Unless in the financial or mechanical sense - www.gov.uk/design-principles/style-guide"

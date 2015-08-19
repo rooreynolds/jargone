@@ -65,6 +65,7 @@
 'axe to grind',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"
 'back to square one',"Cliches, Keith Waterhouse, On Newspaper Style"
 'baseline',"(Local Government Association banned words, 2009)"
+'basically',"Words to avoid in educational writing (https://css-tricks.com/words-avoid-educational-writing/)"
 'beacon',"(Local Government Association banned words, 2007)"
 'because of the fact that'
 'beggars belief',"Trade cliches, Keith Waterhouse, On Newspaper Style"
@@ -224,6 +225,7 @@
 'equitable'
 'equivalent'
 'evaluate'
+'everyone knows',"Words to avoid in educational writing (https://css-tricks.com/words-avoid-educational-writing/)"
 'evidence base',"(Local Government Association banned words, 2007)"
 'evidenced'
 'exclusively'
@@ -351,6 +353,7 @@
 'joined up',"(Local Government Association banned words, 2007)"
 'joined-up',"(Local Government Association banned words, 2007)"
 'joint working',"(Local Government Association banned words, 2007)"
+'just',"Words to avoid in educational writing (https://css-tricks.com/words-avoid-educational-writing/)"
 'key',"Unless it unlocks something. A subject/thing isn't 'key' – it's probably 'important' - www.gov.uk/design-principles/style-guide"
 'key asks',"(Local Government Association banned words, 2010)"
 'knowledge bite',"(Local Government Association banned words, 2010)"
@@ -433,6 +436,8 @@
 'objective'
 'obligate'
 'obtain'
+'obviously',"Not everything is as obvious as you might think it is. Words to avoid in educational writing (https://css-tricks.com/words-avoid-educational-writing/)"
+'of course', "Words to avoid in educational writing (https://css-tricks.com/words-avoid-educational-writing/)"
 'on the contrary'
 'on the hypothesis that',"George Orwell, Politics and the English Language, Horizon, April 1946"
 'on the other hand'
@@ -573,6 +578,7 @@
 'should you wish'
 'signpost',"(Local Government Association banned words, 2007)"
 'similar to'
+'simply',"Words to avoid in educational writing (https://css-tricks.com/words-avoid-educational-writing/)"
 'single conversations',"(Local Government Association banned words, 2009)"
 'single point of contact',"(Local Government Association banned words, 2007)"
 'situational',"(Local Government Association banned words, 2009)"

@@ -1,4 +1,3 @@
-''
 'CAAs',"(Local Government Association banned words, 2007)"
 'LAAs',"(Local Government Association banned words, 2007)"
 'MAAs',"(Local Government Association banned words, 2007)"
@@ -39,7 +38,7 @@
 'allocate'
 'along the lines of'
 'alternatively',"Instead? But?"
-'altitude'
+'altitude',"Unless you are talking about the height of a mountain or flight path"
 'ambassador',"Unless you are talking about an actual ambassador (Local Government Association banned words, 2010)"
 'ameliorate',"Bad writers, and especially scientific, political and sociological writers, are nearly always haunted by the notion that Latin or Greek words are grander than Saxon ones. - George Orwell, Politics and the English Language, Horizon, April 1946"
 'an epileptic',"a person with / someone who has epilepsy - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
@@ -66,6 +65,7 @@
 'attain'
 'attributable to'
 'authorize'
+'authorise'
 'autonomous',"(Local Government Association banned words, 2009)"
 'axe to grind',"… there is a huge dump of worn-out metaphors which have lost all evocative power and are merely used because they save people the trouble of inventing phrases for themselves … - George Orwell, Politics and the English Language, Horizon, April 1946"
 'back to square one',"Cliches, Keith Waterhouse, On Newspaper Style"
@@ -83,7 +83,8 @@
 'best-practice',"(Local Government Association banned words, 2007)"
 'bestial atrocities',"When one watches some tired hack on the platform mechanically repeating the familiar phrases … one often has a curious feeling that one is not watching a live human being but some kind of dummy… - George Orwell, Politics and the English Language, Horizon, April 1946"
 'bestow'
-'big bang'
+'big bang',"Unless talking about astrophysics"
+'bike shedding'
 'bitter row',"Tabloidese, Keith Waterhouse, On Newspaper Style"
 'bitter row',"Trade cliches, Keith Waterhouse, On Newspaper Style"
 'blind drunk',"Common phrases that may associate impairments with negative things should be avoided, for example 'deaf to our pleas' or 'blind drunk' - odi.dwp.gov.uk/inclusive-communications/representation/language.php"
@@ -374,7 +375,7 @@
 'just',"Words to avoid in educational writing (https://css-tricks.com/words-avoid-educational-writing/)"
 'key asks',"(Local Government Association banned words, 2010)"
 'key',"Unless it unlocks something. A subject/thing isn't 'key' – it's probably 'important' - www.gov.uk/design-principles/style-guide"
-'kickstart'
+'kickstart',"Unless it's a motorcycle?"
 'knowledge bite',"(Local Government Association banned words, 2010)"
 'knowledge hub',"(Local Government Association banned words, 2010)"
 'knowledge transfer'
@@ -391,7 +392,7 @@
 'leaving no stone unturned',"George Orwell, Politics and the English Language, Horizon, April 1946"
 'left no stone unturned',"George Orwell, Politics and the English Language, Horizon, April 1946"
 'lens',"Perhaps you mean perspective? https://twitter.com/rooreynolds/status/621354724076429312"
-'lenses'
+'lenses',"Perhaps you mean perspectives? https://twitter.com/rooreynolds/status/621354724076429312"
 'level playing field',"(Local Government Association banned words, 2007)"
 'lever',"(Local Government Association banned words, 2010)"
 'leverage',"Unless in the financial or mechanical sense - www.gov.uk/design-principles/style-guide"

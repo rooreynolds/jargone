@@ -177,7 +177,7 @@
 'death toll',"Trade cliches, Keith Waterhouse, On Newspaper Style"
 'deep dive',"Look in more detail (Local Government Association banned words, 2010)"
 'deliver',"Pizzas, post and services are delivered – not abstract concepts like 'improvements' or 'priorities' - www.gov.uk/design-principles/style-guide"
-'delivery chain',"(Local Government Association banned words, 2010)"
+'delivered',"Pizzas, post and services are delivered – not abstract concepts like 'improvements' or 'priorities' - www.gov.uk/design-principles/style-guide"'delivery chain',"(Local Government Association banned words, 2010)"
 'democratic legitimacy',"(Local Government Association banned words, 2007)"
 'democratic mandate',"(Local Government Association banned words, 2007)"
 'demonstrate'
@@ -271,7 +271,9 @@
 'for the purpose of'
 'for yourselves'
 'forfeit'
+'forfeited'
 'formulate'
+'formulated'
 'foster',"Unless it is children - www.gov.uk/design-principles/style-guide"
 'fostering',"Unless it is children - www.gov.uk/design-principles/style-guide"
 'framework',"(Local Government Association banned words, 2007)"
